@@ -1,0 +1,115 @@
+x-airflow-common:
+  &airflow-common
+
+  image: apache/airflow:3.3.0
+
+  environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres-airflow:5432/airflow
+      AIRFLOW__CORE__AUTH_MANAGER: airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./logs:/opt/airflow/logs
+    - ./plugins:/opt/airflow/plugins
+
+  depends_on:
+    - postgres-airflow
+
+
+services:
+
+  postgres-airflow:
+
+    restart: always
+
+    image: postgres:17
+
+    container_name: postgres-airflow
+
+    environment:
+      POSTGRES_DB: airflow
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_airflow_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  postgres-dwh:
+
+    restart: always
+
+    image: postgres:17
+
+    container_name: postgres-dwh
+
+    environment:
+      POSTGRES_DB: dwh
+      POSTGRES_USER: dwh
+      POSTGRES_PASSWORD: dwh
+
+    ports:
+      - "5433:5432"
+
+    volumes:
+      - postgres_dwh_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dwh"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        airflow db migrate &&
+        airflow users create \
+          --username airflow \
+          --firstname Airflow \
+          --lastname Admin \
+          --role Admin \
+          --email airflow@example.com \
+          --password airflow
+
+
+  airflow-scheduler:
+    <<: *airflow-common
+
+    restart: always
+
+    command:
+      - airflow
+      - scheduler
+
+
+  airflow-api-server:
+    <<: *airflow-common
+
+    restart: always
+
+    command:
+      - airflow
+      - api-server
+
+    ports:
+      - "8080:8080"
+
+volumes:
+  postgres_airflow_data:
+
+  postgres_dwh_data:

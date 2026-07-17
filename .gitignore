@@ -1,0 +1,33 @@
+# Environment variables
+.env
+
+# Airflow
+logs/
+__pycache__/
+*.pyc
+
+# Airflow local files
+.airflowignore
+
+# PostgreSQL data
+postgres_airflow_data/
+postgres_dwh_data/
+
+# Docker volumes
+*.pid
+
+# OS files
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+venv/
+.venv/
+
+# Secrets
+*.secret
+*.key
+*.pem
