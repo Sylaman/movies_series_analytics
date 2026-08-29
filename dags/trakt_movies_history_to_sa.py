@@ -13,52 +13,60 @@ import tmdbsimple as tmdb
 
 
 def fetch_and_load_data_from_trakt(endpoint, target_table, target_field):
-
     CLIENT_ID = Variable.get('trakt_client_id')
     USERNAME = Variable.get('trakt_username')
     SECRET = Variable.get('trakt_secret')
 
     headers = {
-        "Content-Type": "application/json",
-        "trakt-api-version": "2",
-        "trakt-api-key": CLIENT_ID,
+        'Content-Type': 'application/json',
+        'trakt-api-version': '2',
+        'trakt-api-key': CLIENT_ID,
     }
 
-    # Отправляем запрос по API для получения данных
-    url = f"https://api.trakt.tv/users/{USERNAME}/{endpoint}"
-    response = requests.get(url, headers=headers)
+    pg_hook = PostgresHook(postgres_conn_id='postgres_dwh')
+    
+    page = 1
+    limit = 100  # Максимальный размер страницы, который обычно поддерживает Trakt
+    total_loaded = 0
 
-    print(f"Trakt History API Status: {response.status_code}")
+    while True:
+        # Корректно формируем URL с учетом того, есть ли уже параметры (например, ?extended=full)
+        separator = '&' if '?' in endpoint else '?'
+        paged_url = f'https://api.trakt.tv/users/{USERNAME}/{endpoint}{separator}page={page}&limit={limit}'
+        
+        response = requests.get(paged_url, headers=headers)
+        print(f'Trakt API Status (Page {page}): {response.status_code}')
 
-    if response.status_code == 200:
-        history_data = response.json()
+        if response.status_code != 200:
+            raise RuntimeError(
+                f'Ошибка Trakt API: {response.status_code} - {response.text}'
+            )
 
-        if not history_data:
-            print('История просмотров пуста.')
-            return
+        page_data = response.json()
 
-        print(f'Получено записей истории просмотров: {len(history_data)}')
+        # Если страница пустая — значит, выгрузили всё
+        if not page_data:
+            break
 
-
-        # Подключаемся к dwh и сохраняем в sa каждый элемент полученного json отдельной строкой
-        pg_hook = PostgresHook(postgres_conn_id = 'postgres_dwh')
-
-        rows_to_insert = [(json.dumps(item),) for item in history_data]
+        rows_to_insert = [(json.dumps(item),) for item in page_data]
 
         pg_hook.insert_rows(
-            table = target_table,
-            rows = rows_to_insert,
-            target_fields = [target_field],
-            commit_every = 500,
+            table=target_table,
+            rows=rows_to_insert,
+            target_fields=[target_field],
+            commit_every=500,
         )
 
-        print(
-            f'Успешно загружено записей в {target_table}: {len(history_data)}'
-        )
-    else:
-        raise RuntimeError(
-            f'Ошибка Trakt API: {response.status_code} - {response.text}'
-        )
+        total_loaded += len(page_data)
+        print(f'Загружено записей со страницы {page}: {len(page_data)}')
+
+        # Если пришло меньше элементов, чем лимит, это последняя страница
+        if len(page_data) < limit:
+            break
+
+        page += 1
+
+    print(f'Успешно загружено всего записей в {target_table}: {total_loaded}')
 
 
 with DAG(
