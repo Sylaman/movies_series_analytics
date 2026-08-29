@@ -5,14 +5,21 @@ from airflow import DAG
 from airflow.models import Variable
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.providers.standard.operators.python import PythonOperator
-import requests
+from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
 
-CLIENT_ID = Variable.get("track_client_id")
-USERNAME = Variable.get("track_username")
-SECRET = Variable.get("track_secret")
+import requests
+import tmdbsimple as tmdb
+
+
+
 
 
 def fetch_and_load_movies_watch_history():
+
+    CLIENT_ID = Variable.get("track_client_id")
+    USERNAME = Variable.get("track_username")
+    SECRET = Variable.get("track_secret")
+
     headers = {
         "Content-Type": "application/json",
         "trakt-api-version": "2",
@@ -64,7 +71,16 @@ with DAG(
     tags=['sa', 'trakt', 'watch_history'],
 ) as dag:
 
-    load_history_task = PythonOperator(
-        task_id = 'load_movies_history_to_postgres',
+    truncate_sa_tables = SQLExecuteQueryOperator (
+        task_id = 'truncate_sa_tables',
+        conn_id = 'postgres_dwh',
+        sql='TRUNCATE sa.raw_trakt_watch_history, sa.raw_trakt_ratings'
+    )
+
+    load_movies_watch_history = PythonOperator(
+        task_id = 'load_movies_history_to_staging_area',
         python_callable = fetch_and_load_movies_watch_history,
     )
+
+
+    truncate_sa_tables >> load_movies_watch_history 
