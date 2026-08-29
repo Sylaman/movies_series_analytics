@@ -1,42 +1,55 @@
 from datetime import datetime
 import json
-from pathlib import Path
 
 from airflow import DAG
 from airflow.models import Variable
+from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.providers.standard.operators.python import PythonOperator
 import requests
 
-# 1. Чтение переменных на верхнем уровне
-CLIENT_ID = Variable.get('track_client_id')
-USERNAME = Variable.get('track_username')
-SECRET = Variable.get('track_secret') 	
+CLIENT_ID = Variable.get("track_client_id")
+USERNAME = Variable.get("track_username")
+SECRET = Variable.get("track_secret")
 
 
-OUTPUT_FILE_PATH = Path("/opt/airflow/dags/movies_history_response.json")
-
-
-def fetch_and_save_movies_history():
+def fetch_and_load_movies_watch_history():
     headers = {
         "Content-Type": "application/json",
         "trakt-api-version": "2",
         "trakt-api-key": CLIENT_ID,
     }
 
-    # limit=50 запросит последние 50 записей истории
-    url = f"https://api.trakt.tv/users/{USERNAME}/history/movies?extended=full&limit=50"
+    # Запрашиваем историю просмотров с сервиса Track.TV
+    url = f"https://api.trakt.tv/users/{USERNAME}/history/movies?extended=full"
     response = requests.get(url, headers=headers)
 
     print(f"Trakt History API Status: {response.status_code}")
 
     if response.status_code == 200:
         history_data = response.json()
+
+        if not history_data:
+            print("История просмотров пуста.")
+            return
+
         print(f"Получено записей истории просмотров: {len(history_data)}")
 
-        with open(OUTPUT_FILE_PATH, "w", encoding="utf-8") as f:
-            json.dump(history_data, f, ensure_ascii=False, indent=2)
 
-        print(f"История успешно сохранена в: {OUTPUT_FILE_PATH}")
+        # Подключаемся к dwh и сохраняем в sa каждый элемент полученного json отдельной строкой
+        pg_hook = PostgresHook(postgres_conn_id="postgres_dwh")
+
+        rows_to_insert = [(json.dumps(item),) for item in history_data]
+
+        pg_hook.insert_rows(
+            table="sa.raw_trakt_watch_history",
+            rows=rows_to_insert,
+            target_fields=["trakt_history_json"],
+            commit_every=500,
+        )
+
+        print(
+            f"Успешно загружено записей в sa.raw_trakt_watch_history: {len(history_data)}"
+        )
     else:
         raise RuntimeError(
             f"Ошибка Trakt API: {response.status_code} - {response.text}"
@@ -44,14 +57,14 @@ def fetch_and_save_movies_history():
 
 
 with DAG(
-    dag_id="test_trakt_movies_history",
+    dag_id="trakt_movies_history_to_sa",
     start_date=datetime(2026, 8, 29),
     schedule=None,
     catchup=False,
-    tags=["test", "trakt", "history"],
+    tags=['sa', 'trakt', 'watch_history'],
 ) as dag:
 
-    dump_history_task = PythonOperator(
-        task_id="save_movies_history_json",
-        python_callable=fetch_and_save_movies_history,
+    load_history_task = PythonOperator(
+        task_id = 'load_movies_history_to_postgres',
+        python_callable = fetch_and_load_movies_watch_history,
     )
