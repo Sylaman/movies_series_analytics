@@ -5,13 +5,17 @@ x-airflow-common:
   image: custom-airflow:3.3.0
 
   environment:
-      AIRFLOW__CORE__EXECUTOR: LocalExecutor
-      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres-airflow:5432/airflow
-      AIRFLOW__CORE__AUTH_MANAGER: airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
-      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
-      AIRFLOW__API__TEST_CONNECTION: "Enabled"
-      AIRFLOW__CORE__TEST_CONNECTION: "Enabled"
-      AIRFLOW__CORE__FERNET_KEY: "FO6s6E7Nu87QIpQuucVsj-3K6Fwzs6OYplTkydx9pxM="
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres-airflow:5432/airflow
+    AIRFLOW__CORE__AUTH_MANAGER: airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__API__TEST_CONNECTION: "Enabled"
+    AIRFLOW__CORE__TEST_CONNECTION: "Enabled"
+    AIRFLOW__CORE__FERNET_KEY: "F8SjHuhpT_G9MFLEh5YDYkPr91w82pqOCYIv55xzMvY="
+    AIRFLOW__SCHEDULER__DAG_DIR_LIST_INTERVAL: "60"
+    AIRFLOW__CORE__EXECUTION_API_SERVER_URL: "http://airflow-api-server:8080/execution/"
+    AIRFLOW__API_AUTH__JWT_SECRET: "9a2f6b4e7c1d3a5e8b0f2d4c6e8a1b3d5e7f9a0b2c4d6e8f0a1b3c5d7e9f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f"
+    AIRFLOW__API__SECRET_KEY: "9a2f6b4e7c1d3a5e8b0f2d4c6e8a1b3d5e7f9a0b2c4d6e8f0a1b3c5d7e9f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f"
 
   volumes:
     - ./dags:/opt/airflow/dags
@@ -19,64 +23,59 @@ x-airflow-common:
     - ./plugins:/opt/airflow/plugins
 
   depends_on:
-    - postgres-airflow
+    postgres-airflow:
+      condition: service_healthy
+
+  networks:
+    - airflow_net
 
 
 services:
 
   postgres-airflow:
-
     restart: always
-
     image: postgres:17
-
     container_name: postgres-airflow
-
     environment:
       POSTGRES_DB: airflow
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
-
     ports:
       - "5432:5432"
-
     volumes:
       - postgres_airflow_data:/var/lib/postgresql/data
-
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U airflow"]
       interval: 5s
       timeout: 5s
       retries: 5
+    networks:
+      - airflow_net
 
   postgres-dwh:
-
     restart: always
-
     image: postgres:17
-
     container_name: postgres-dwh
-
     environment:
       POSTGRES_DB: dwh
       POSTGRES_USER: dwh
       POSTGRES_PASSWORD: dwh
-
     ports:
       - "5433:5432"
-
     volumes:
       - postgres_dwh_data:/var/lib/postgresql/data
-
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U dwh"]
       interval: 5s
       timeout: 5s
       retries: 5
-
+    networks:
+      - airflow_net
 
   airflow-init:
     <<: *airflow-common
+    networks:
+      - airflow_net
     entrypoint: /bin/bash
     command:
       - -c
@@ -90,30 +89,39 @@ services:
           --email airflow@example.com \
           --password airflow
 
+  airflow-dag-processor:
+    <<: *airflow-common
+    restart: always
+    networks:
+      - airflow_net
+    command:
+      - airflow
+      - dag-processor
 
   airflow-scheduler:
     <<: *airflow-common
-
     restart: always
-
+    networks:
+      - airflow_net
     command:
       - airflow
       - scheduler
 
-
   airflow-api-server:
     <<: *airflow-common
-
     restart: always
-
+    networks:
+      - airflow_net
     command:
       - airflow
       - api-server
-
     ports:
       - "8080:8080"
 
 volumes:
   postgres_airflow_data:
-
   postgres_dwh_data:
+
+networks:
+  airflow_net:
+    driver: bridge
