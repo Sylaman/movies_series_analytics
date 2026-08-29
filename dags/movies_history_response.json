@@ -1,0 +1,6217 @@
+[
+  {
+    "id": 14346736110,
+    "watched_at": "2026-08-28T17:59:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt35628853",
+        "plex": {
+          "guid": "679d75cac1589fd538bde6d6",
+          "slug": "titan-the-oceangate-disaster-2025"
+        },
+        "slug": "titan-the-oceangate-submersible-disaster-2025",
+        "tmdb": 1426306,
+        "trakt": 1166417
+      },
+      "year": 2025,
+      "title": "Titan: The OceanGate Submersible Disaster",
+      "votes": 2132,
+      "colors": {
+        "poster": [
+          "#7FBBB7",
+          "#0D3D3D"
+        ]
+      },
+      "genres": [
+        "documentary",
+        "drama"
+      ],
+      "images": {
+        "logo": [],
+        "thumb": [],
+        "banner": [],
+        "fanart": [
+          "media.trakt.tv/images/movies/001/166/417/fanarts/medium/25ab18aa42.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/001/166/417/posters/medium/4a33a76588.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 7.211069583892822,
+      "status": "released",
+      "country": "us",
+      "runtime": 112,
+      "tagline": "The deeper you look, the darker it gets.",
+      "trailer": "https://youtube.com/watch?v=CplcmrxZMyo",
+      "homepage": "https://www.netflix.com/title/81712178",
+      "language": "en",
+      "overview": "OceanGate's Titan tourist submersible imploded in 2023 on a deep-sea dive to the Titanic. This documentary details how a bold vision ended in tragedy.",
+      "released": "2025-06-11",
+      "languages": [
+        "fr",
+        "en"
+      ],
+      "subgenres": [
+        "submarine"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "Titan:_The_OceanGate_Disaster"
+      },
+      "updated_at": "2026-08-28T17:42:03.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 18,
+      "during_credits": false,
+      "original_title": "Titan: The OceanGate Submersible Disaster",
+      "available_translations": [
+        "ar",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "ms",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sv",
+        "th",
+        "tl",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14328408601,
+    "watched_at": "2026-08-24T20:06:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt9412098",
+        "plex": {
+          "guid": "5d7770a9ad5437001f827dd1",
+          "slug": "fyre-2019"
+        },
+        "slug": "fyre-2019",
+        "tmdb": 567860,
+        "trakt": 420612
+      },
+      "year": 2019,
+      "title": "Fyre",
+      "votes": 3714,
+      "colors": {
+        "poster": [
+          "#DBDADC",
+          "#8D624A"
+        ]
+      },
+      "genres": [
+        "documentary"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/420/612/logos/medium/472e42e405.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/420/612/thumbs/medium/158e8c8059.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/420/612/banners/medium/503cfdcf94.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/420/612/fanarts/medium/358f83138a.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/420/612/posters/medium/3d0443e665.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/420/612/cleararts/medium/1bb97f318a.png.webp"
+        ]
+      },
+      "rating": 7.235056400299072,
+      "status": "released",
+      "country": "us",
+      "runtime": 98,
+      "tagline": "The greatest party that never happened.",
+      "trailer": "https://youtube.com/watch?v=uZ0KNVU2fV0",
+      "homepage": "https://www.netflix.com/title/81035279",
+      "language": "en",
+      "overview": "He promised supermodels and yachts, but delivered tents and cheese sandwiches. How one man engineered a music festival disaster.",
+      "released": "2019-01-18",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "observational-documentary",
+        "disaster"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "Fyre_(film)"
+      },
+      "updated_at": "2026-08-28T17:24:44.000Z",
+      "after_credits": false,
+      "certification": null,
+      "comment_count": 14,
+      "during_credits": false,
+      "original_title": "Fyre",
+      "available_translations": [
+        "bg",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sv",
+        "th",
+        "tr",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14322933677,
+    "watched_at": "2026-08-23T20:07:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt14992922",
+        "plex": {
+          "guid": "60e57400e9a099002c3560a7",
+          "slug": "the-tinder-swindler"
+        },
+        "slug": "the-tinder-swindler-2022",
+        "tmdb": 923632,
+        "trakt": 739823
+      },
+      "year": 2022,
+      "title": "The Tinder Swindler",
+      "votes": 7452,
+      "colors": {
+        "poster": [
+          "#1EC0BE",
+          "#040909"
+        ]
+      },
+      "genres": [
+        "documentary",
+        "crime"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/739/823/logos/medium/d8ebd3afe1.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/739/823/thumbs/medium/13ee7a9ecf.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/739/823/banners/medium/7ee3f9ce3c.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/739/823/fanarts/medium/1f64012516.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/739/823/posters/medium/3bf5910c92.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 7.809447288513184,
+      "status": "released",
+      "country": "gb",
+      "runtime": 114,
+      "tagline": "Modern love is a dangerous game.",
+      "trailer": "https://youtube.com/watch?v=2-Sp692UNqo",
+      "homepage": "https://netflix.com/thetinderswindler",
+      "language": "en",
+      "overview": "Posing as a wealthy, jet-setting diamond mogul, an Israeli conman wooed women online then conned them out of millions of dollars. Now, some victims plan for payback.",
+      "released": "2022-02-02",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "cautionary",
+        "dating"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "The_Tinder_Swindler"
+      },
+      "updated_at": "2026-08-28T17:35:08.000Z",
+      "after_credits": false,
+      "certification": null,
+      "comment_count": 36,
+      "during_credits": false,
+      "original_title": "The Tinder Swindler",
+      "available_translations": [
+        "ar",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ko",
+        "lt",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14317016331,
+    "watched_at": "2026-08-02T12:00:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt1054606",
+        "plex": {
+          "guid": "5d77683161141d001fb14b92",
+          "slug": "the-imaginarium-of-doctor-parnassus"
+        },
+        "slug": "the-imaginarium-of-doctor-parnassus-2009",
+        "tmdb": 8054,
+        "trakt": 4021
+      },
+      "year": 2009,
+      "title": "The Imaginarium of Doctor Parnassus",
+      "votes": 3506,
+      "colors": {
+        "poster": [
+          "#60A5B9",
+          "#132D44"
+        ]
+      },
+      "genres": [
+        "adventure",
+        "fantasy",
+        "mystery"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/004/021/logos/medium/6e5045370e.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/004/021/thumbs/medium/5534a1adbe.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/004/021/banners/medium/09613b4a90.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/004/021/fanarts/medium/2a326bb671.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/004/021/posters/medium/2ed6745704.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 6.669709205627441,
+      "status": "released",
+      "country": "gb",
+      "runtime": 123,
+      "tagline": "The man who tried to cheat the devil.",
+      "trailer": "https://youtube.com/watch?v=Iqe85ffv9-w",
+      "homepage": "https://www.sonypictures.com/movies/theimaginariumofdoctorparnassus",
+      "language": "en",
+      "overview": "After a carnival troupe saves his life, a man agrees to help its immortal leader collect five souls and win a bet with the devil.",
+      "released": "2009-10-16",
+      "languages": [
+        "en",
+        "ru",
+        "fr"
+      ],
+      "subgenres": [
+        "supernatural",
+        "immortality"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "The_Imaginarium_of_Doctor_Parnassus"
+      },
+      "updated_at": "2026-08-28T17:04:08.000Z",
+      "after_credits": true,
+      "certification": "PG-13",
+      "comment_count": 10,
+      "during_credits": true,
+      "original_title": "The Imaginarium of Doctor Parnassus",
+      "available_translations": [
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fi",
+        "fr",
+        "he",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lv",
+        "nl",
+        "pl",
+        "pt",
+        "ru",
+        "sk",
+        "sl",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319649989,
+    "watched_at": "2026-07-31T18:46:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt32897959",
+        "plex": {
+          "guid": "6694fe880e93ae4a502fba52",
+          "slug": "wuthering-heights-2025"
+        },
+        "slug": "wuthering-heights-2026",
+        "tmdb": 1316092,
+        "trakt": 1077273
+      },
+      "year": 2026,
+      "title": "\"Wuthering Heights\"",
+      "votes": 7628,
+      "colors": {
+        "poster": [
+          "#EBE3DD",
+          "#4E372C"
+        ]
+      },
+      "genres": [
+        "drama",
+        "romance"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/001/077/273/logos/medium/ba6ef424ff.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/001/077/273/thumbs/medium/5a2904406c.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/001/077/273/banners/medium/d60a4598fb.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/001/077/273/fanarts/medium/2d268c5582.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/001/077/273/posters/medium/6f99082397.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/001/077/273/cleararts/medium/a48f484292.png.webp"
+        ]
+      },
+      "rating": 6.482826232910156,
+      "status": "released",
+      "country": "gb",
+      "runtime": 136,
+      "tagline": "Come undone.",
+      "trailer": "https://youtube.com/watch?v=HWFdeoeBNV0",
+      "homepage": "https://www.wutheringheightsfilm.com",
+      "language": "en",
+      "overview": "Tragedy strikes when Heathcliff falls in love with Catherine Earnshaw, a woman from a wealthy family in 18th-century England.",
+      "released": "2026-02-13",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "period-drama",
+        "orphan",
+        "infidelity",
+        "18th-century",
+        "forbidden-love",
+        "violence"
+      ],
+      "social_ids": {
+        "twitter": "wuthering_hts",
+        "facebook": "wutheringmovie",
+        "instagram": "wutheringheightsmovie",
+        "wikipedia": "Wuthering_Heights_(2026_film)"
+      },
+      "updated_at": "2026-08-29T08:26:40.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 86,
+      "during_credits": false,
+      "original_title": "\"Wuthering Heights\"",
+      "available_translations": [
+        "ar",
+        "az",
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "ur",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14317064012,
+    "watched_at": "2026-07-30T19:08:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt34685692",
+        "plex": {
+          "guid": "673df95d0a12ec6df44cd658",
+          "slug": "over-your-dead-body-2026"
+        },
+        "slug": "over-your-dead-body-2026",
+        "tmdb": 1390300,
+        "trakt": 1136565
+      },
+      "year": 2026,
+      "title": "Over Your Dead Body",
+      "votes": 5251,
+      "colors": {
+        "poster": [
+          "#C9BA54",
+          "#2B2F1B"
+        ]
+      },
+      "genres": [
+        "comedy",
+        "action",
+        "thriller"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/001/136/565/logos/medium/6b362d5366.png.webp"
+        ],
+        "thumb": [],
+        "banner": [],
+        "fanart": [
+          "media.trakt.tv/images/movies/001/136/565/fanarts/medium/bfa4146fd3.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/001/136/565/posters/medium/6d963f1c53.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 6.728813648223877,
+      "status": "released",
+      "country": "us",
+      "runtime": 105,
+      "tagline": "Breakups are all in the execution.",
+      "trailer": "https://youtube.com/watch?v=pGxKTIegUZ4",
+      "homepage": null,
+      "language": "en",
+      "overview": "A dysfunctional couple head to a remote cabin to \"reconnect\", but each has secret intentions to kill the other.",
+      "released": "2026-04-24",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "intense",
+        "hilarious"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "Over_Your_Dead_Body_(2026_film)"
+      },
+      "updated_at": "2026-08-28T17:42:34.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 53,
+      "during_credits": false,
+      "original_title": "Over Your Dead Body",
+      "available_translations": [
+        "ar",
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319651382,
+    "watched_at": "2026-07-28T20:15:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt32916440",
+        "plex": {
+          "guid": "669748dc85be974cd2ab194c",
+          "slug": "marty-supreme-2025"
+        },
+        "slug": "marty-supreme-2025",
+        "tmdb": 1317288,
+        "trakt": 1076665
+      },
+      "year": 2025,
+      "title": "Marty Supreme",
+      "votes": 13836,
+      "colors": {
+        "poster": [
+          "#CBB7AC",
+          "#3A231C"
+        ]
+      },
+      "genres": [
+        "drama",
+        "thriller"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/001/076/665/logos/medium/a4cc504319.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/001/076/665/thumbs/medium/9792b13553.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/001/076/665/banners/medium/dd2fab5421.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/001/076/665/fanarts/medium/fdfabca6ae.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/001/076/665/posters/medium/99eb58cb64.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 7.612026691436768,
+      "status": "released",
+      "country": "us",
+      "runtime": 150,
+      "tagline": "Dream big.",
+      "trailer": "https://youtube.com/watch?v=s9gSuKaKcqM",
+      "homepage": "https://a24films.com/films/marty-supreme",
+      "language": "en",
+      "overview": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
+      "released": "2025-12-19",
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "subgenres": [
+        "amused",
+        "sports",
+        "1950s"
+      ],
+      "social_ids": {
+        "twitter": "martysupreme",
+        "facebook": "MartySupreme",
+        "instagram": "martysupreme",
+        "wikipedia": "Marty_Supreme"
+      },
+      "updated_at": "2026-08-29T08:30:55.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 131,
+      "during_credits": false,
+      "original_title": "Marty Supreme",
+      "available_translations": [
+        "ar",
+        "az",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "eu",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14317058696,
+    "watched_at": "2026-07-26T17:06:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt30825738",
+        "plex": {
+          "guid": "659eea0148cee3ee85e48609",
+          "slug": "the-mandalorian-and-grogu-2026"
+        },
+        "slug": "the-mandalorian-and-grogu-2026",
+        "tmdb": 1228710,
+        "trakt": 993003
+      },
+      "year": 2026,
+      "title": "The Mandalorian and Grogu",
+      "votes": 10871,
+      "colors": {
+        "poster": [
+          "#BF9158",
+          "#282122"
+        ]
+      },
+      "genres": [
+        "adventure",
+        "action",
+        "science-fiction"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/993/003/logos/medium/05a92bbcf4.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/993/003/thumbs/medium/4234d9e162.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/993/003/banners/medium/bea18dfdda.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/993/003/fanarts/medium/ba530f2809.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/993/003/posters/medium/d9acf3868d.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/993/003/cleararts/medium/bc6a28f156.png.webp"
+        ]
+      },
+      "rating": 7.345230579376221,
+      "status": "released",
+      "country": "us",
+      "runtime": 132,
+      "tagline": "If you're searching for new adventure, \"this is the way.\"",
+      "trailer": "https://youtube.com/watch?v=uwild1rw7Aw",
+      "homepage": "https://www.starwars.com/films/star-wars-the-mandalorian-and-grogu",
+      "language": "en",
+      "overview": "The evil Empire has fallen, and Imperial warlords remain scattered throughout the galaxy. As the fledgling New Republic works to protect everything the Rebellion fought for, they have enlisted the help of legendary Mandalorian bounty hunter Din Djarin and his young apprentice Grogu.",
+      "released": "2026-05-22",
+      "languages": [
+        "en",
+        "ay"
+      ],
+      "subgenres": [
+        "spin-off",
+        "based-on-tv-series",
+        "nostalgic",
+        "space-opera",
+        "bounty-hunter"
+      ],
+      "social_ids": {
+        "twitter": "themandalorian",
+        "facebook": "StarWars",
+        "instagram": "themandalorian",
+        "wikipedia": "The_Mandalorian_and_Grogu"
+      },
+      "updated_at": "2026-08-29T08:26:37.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 141,
+      "during_credits": false,
+      "original_title": "The Mandalorian and Grogu",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14317157910,
+    "watched_at": "2026-07-24T17:22:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt27681354",
+        "plex": {
+          "guid": "6456bd77fc0430a14eb16a44",
+          "slug": "in-the-grey-2026"
+        },
+        "slug": "in-the-grey-2026",
+        "tmdb": 1122573,
+        "trakt": 903398
+      },
+      "year": 2026,
+      "title": "In the Grey",
+      "votes": 6258,
+      "colors": {
+        "poster": [
+          "#8BA897",
+          "#49422A"
+        ]
+      },
+      "genres": [
+        "action",
+        "thriller"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/903/398/logos/medium/45b23b0e46.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/903/398/thumbs/medium/d9d89ed09c.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/903/398/banners/medium/22321cd3b7.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/903/398/fanarts/medium/d6b813cbbe.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/903/398/posters/medium/aaaf97b181.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/903/398/cleararts/medium/1d70e7db51.png.webp"
+        ]
+      },
+      "rating": 7.172898769378662,
+      "status": "released",
+      "country": "us",
+      "runtime": 97,
+      "tagline": "When billions get stolen, meet the pros who steal it back.",
+      "trailer": "https://youtube.com/watch?v=nufP15iN4GE",
+      "homepage": "https://www.inthegrey.film",
+      "language": "en",
+      "overview": "A covert team of elite operatives are living in the shadows. When a ruthless despot steals a billion-dollar fortune, they're sent to take it back—an impossible heist that erupts into a deadly game of strategy, deception and survival.",
+      "released": "2026-05-15",
+      "languages": [
+        "en",
+        "es"
+      ],
+      "subgenres": [
+        "heist"
+      ],
+      "social_ids": {
+        "twitter": "InTheGreyFilm",
+        "facebook": "InTheGreyFilm",
+        "instagram": "inthegreyfilm",
+        "wikipedia": "In_the_Grey"
+      },
+      "updated_at": "2026-08-29T08:21:40.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 63,
+      "during_credits": false,
+      "original_title": "In the Grey",
+      "available_translations": [
+        "ar",
+        "az",
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14317084598,
+    "watched_at": "2026-07-08T17:25:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt33612209",
+        "plex": {
+          "guid": "668da3cd701c9385b944d19e",
+          "slug": "the-devil-wears-prada-2"
+        },
+        "slug": "the-devil-wears-prada-2-2026",
+        "tmdb": 1314481,
+        "trakt": 1074519
+      },
+      "year": 2026,
+      "title": "The Devil Wears Prada 2",
+      "votes": 16015,
+      "colors": {
+        "poster": [
+          "#D5CFC8",
+          "#53161B"
+        ]
+      },
+      "genres": [
+        "drama",
+        "comedy"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/001/074/519/logos/medium/4f1c6ca1b8.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/001/074/519/thumbs/medium/7dcb64497c.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/001/074/519/banners/medium/37512934ac.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/001/074/519/fanarts/medium/fa2ee82af6.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/001/074/519/posters/medium/3f9681b8d9.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/001/074/519/cleararts/medium/aa66daebb0.png.webp"
+        ]
+      },
+      "rating": 7.310708522796631,
+      "status": "released",
+      "country": "us",
+      "runtime": 119,
+      "tagline": "Icons reign forever.",
+      "trailer": "https://youtube.com/watch?v=PMd1at7OwiE",
+      "homepage": "https://www.20thcenturystudios.com/movies/the-devil-wears-prada-2",
+      "language": "en",
+      "overview": "Andy Sachs returns to Runway as Miranda Priestly navigates a new media landscape and Runway's position within. The duo reconnect with former assistant Emily Charlton, now the head of a luxury brand that possesses funding which could ensure Runway's survival.",
+      "released": "2026-05-01",
+      "languages": [
+        "en",
+        "it"
+      ],
+      "subgenres": [
+        "whimsical",
+        "dramedy",
+        "fashion"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": "tdwp2",
+        "wikipedia": "The_Devil_Wears_Prada_2"
+      },
+      "updated_at": "2026-08-29T08:11:13.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 136,
+      "during_credits": false,
+      "original_title": "The Devil Wears Prada 2",
+      "available_translations": [
+        "ar",
+        "az",
+        "be",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "hy",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lo",
+        "lt",
+        "lv",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "ur",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14317083662,
+    "watched_at": "2026-07-05T16:12:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt0458352",
+        "plex": {
+          "guid": "5d7768255af944001f1f65a9",
+          "slug": "the-devil-wears-prada"
+        },
+        "slug": "the-devil-wears-prada-2006",
+        "tmdb": 350,
+        "trakt": 297
+      },
+      "year": 2006,
+      "title": "The Devil Wears Prada",
+      "votes": 27163,
+      "colors": {
+        "poster": [
+          "#FCF9F8",
+          "#6B2425"
+        ]
+      },
+      "genres": [
+        "comedy",
+        "drama"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/000/297/logos/medium/e0432321f9.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/000/297/thumbs/medium/9c158998c5.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/000/297/banners/medium/e5a3e6b081.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/000/297/fanarts/medium/cf21789ef9.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/000/297/posters/medium/cd8bf89e45.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/000/297/cleararts/medium/813838e713.png.webp"
+        ]
+      },
+      "rating": 7.82027006149292,
+      "status": "released",
+      "country": "us",
+      "runtime": 109,
+      "tagline": "Meet Andy Sachs. A million girls would kill to have her job. She's not one of them.",
+      "trailer": "https://youtube.com/watch?v=6ZOZwUQKu3E",
+      "homepage": "https://www.20thcenturystudios.com/movies/the-devil-wears-prada",
+      "language": "en",
+      "overview": "A young woman from the Midwest gets more than she bargained for when she moves to New York to become a writer and ends up as the assistant to the tyrannical, larger-than-life editor-in-chief of a major fashion magazine.",
+      "released": "2006-06-30",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "subgenres": [
+        "journalism",
+        "fashion"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "The_Devil_Wears_Prada_(film)"
+      },
+      "updated_at": "2026-08-29T08:11:14.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 76,
+      "during_credits": false,
+      "original_title": "The Devil Wears Prada",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "ms",
+        "nb",
+        "nl",
+        "nn",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319447920,
+    "watched_at": "2026-06-13T15:08:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt12042730",
+        "plex": {
+          "guid": "5e91843e9bec79003fe50ffb",
+          "slug": "project-hail-mary"
+        },
+        "slug": "project-hail-mary-2026",
+        "tmdb": 687163,
+        "trakt": 531178
+      },
+      "year": 2026,
+      "title": "Project Hail Mary",
+      "votes": 47679,
+      "colors": {
+        "poster": [
+          "#989688",
+          "#23383C"
+        ]
+      },
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/531/178/logos/medium/7d1af59641.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/531/178/thumbs/medium/a1b2372997.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/531/178/banners/medium/d08114841a.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/531/178/fanarts/medium/dac48ac7b8.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/531/178/posters/medium/9224492cbf.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/531/178/cleararts/medium/944d712cd0.png.webp"
+        ]
+      },
+      "rating": 8.753623008728027,
+      "status": "released",
+      "country": "us",
+      "runtime": 157,
+      "tagline": "Believe in the Hail Mary.",
+      "trailer": "https://youtube.com/watch?v=NKYea63tQmI",
+      "homepage": "https://www.amazon.com/salp/projecthailmary?hhf",
+      "language": "en",
+      "overview": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction.",
+      "released": "2026-03-20",
+      "languages": [
+        "zh",
+        "en",
+        "ja",
+        "ru",
+        "es"
+      ],
+      "subgenres": [
+        "friendship",
+        "scientist",
+        "alien",
+        "astronaut",
+        "space",
+        "space-travel"
+      ],
+      "social_ids": {
+        "twitter": "projecthailmary",
+        "facebook": "ProjectHailMary",
+        "instagram": "projecthailmary",
+        "wikipedia": "Project_Hail_Mary_(film)"
+      },
+      "updated_at": "2026-08-29T08:16:51.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 444,
+      "during_credits": false,
+      "original_title": "Project Hail Mary",
+      "available_translations": [
+        "ar",
+        "az",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "ur",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319443277,
+    "watched_at": "2026-04-12T14:03:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt6019206",
+        "plex": {
+          "guid": "5d776c6e96b655001fe3071d",
+          "slug": "kill-bill-the-whole-bloody-affair"
+        },
+        "slug": "kill-bill-the-whole-bloody-affair-2011",
+        "tmdb": 414419,
+        "trakt": 259317
+      },
+      "year": 2011,
+      "title": "Kill Bill: The Whole Bloody Affair",
+      "votes": 2760,
+      "colors": {
+        "poster": [
+          "#EEDCAB",
+          "#090603"
+        ]
+      },
+      "genres": [
+        "crime",
+        "action",
+        "drama",
+        "thriller"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/259/317/logos/medium/da4c441030.png.webp"
+        ],
+        "thumb": [],
+        "banner": [],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/259/317/fanarts/medium/fee36e9aeb.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/259/317/posters/medium/e9bd857586.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 8.530434608459473,
+      "status": "released",
+      "country": "us",
+      "runtime": 253,
+      "tagline": "The 4th film by Quentin Tarantino. Uncut, unrated, and shown in its entirety.",
+      "trailer": "https://youtube.com/watch?v=qbUz68h9BFo",
+      "homepage": "https://www.lionsgate.com/movies/kill-bill-the-whole-bloody-affair",
+      "language": "en",
+      "overview": "A former assassin, known simply as The Bride, wakes from a coma four years after her jealous ex-lover Bill attempts to murder her on her wedding day. Fueled by an insatiable desire for revenge, she vows to get even with every person who contributed to the loss of her unborn child, her entire wedding party, and four years of her life.  After devising a hit list, The Bride sets off on her quest, enduring unspeakable injury and unscrupulous enemies.",
+      "released": "2011-03-27",
+      "languages": [
+        "zh",
+        "en",
+        "fr",
+        "ja",
+        "es"
+      ],
+      "subgenres": [
+        "aggressive",
+        "assassin",
+        "intense",
+        "kung-fu",
+        "martial-arts",
+        "revenge",
+        "neo-noir",
+        "yakuza",
+        "female-protagonist",
+        "1990s",
+        "blunt",
+        "vigilante"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": null
+      },
+      "updated_at": "2026-08-29T08:11:52.000Z",
+      "after_credits": false,
+      "certification": "NR",
+      "comment_count": 20,
+      "during_credits": false,
+      "original_title": "Kill Bill: The Whole Bloody Affair",
+      "available_translations": [
+        "ar",
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "it",
+        "ko",
+        "nl",
+        "pl",
+        "pt",
+        "ru",
+        "sk",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319447307,
+    "watched_at": "2026-04-11T12:07:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt32357218",
+        "plex": {
+          "guid": "6646bd6262ca77e1d6a100df",
+          "slug": "shelter-2026"
+        },
+        "slug": "shelter-2026",
+        "tmdb": 1290821,
+        "trakt": 1050424
+      },
+      "year": 2026,
+      "title": "Shelter",
+      "votes": 8018,
+      "colors": {
+        "poster": [
+          "#AAB386",
+          "#373935"
+        ]
+      },
+      "genres": [
+        "action",
+        "crime",
+        "thriller"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/001/050/424/logos/medium/1f6a9628cb.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/001/050/424/thumbs/medium/6998678cb8.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/001/050/424/banners/medium/b07ebd6b4e.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/001/050/424/fanarts/medium/eb7b9e81a5.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/001/050/424/posters/medium/e904b05b02.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/001/050/424/cleararts/medium/565202a071.png.webp"
+        ]
+      },
+      "rating": 6.948241233825684,
+      "status": "released",
+      "country": "gb",
+      "runtime": 107,
+      "tagline": "Her safety. His mission.",
+      "trailer": "https://youtube.com/watch?v=auHiLFjaIc0",
+      "homepage": "https://blackbearpictures.com/film-and-tv/shelter",
+      "language": "en",
+      "overview": "A man living in self-imposed exile on a remote island rescues a young girl from a violent storm, setting off a chain of events that forces him out of seclusion to protect her from enemies tied to his past.",
+      "released": "2026-01-30",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "Shelter_(2026_film)"
+      },
+      "updated_at": "2026-08-29T08:15:54.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 59,
+      "during_credits": false,
+      "original_title": "Shelter",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319645492,
+    "watched_at": "2026-04-05T17:43:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt1285016",
+        "plex": {
+          "guid": "5d77686ceb5d26001f1eabb9",
+          "slug": "the-social-network"
+        },
+        "slug": "the-social-network-2010",
+        "tmdb": 37799,
+        "trakt": 24279
+      },
+      "year": 2010,
+      "title": "The Social Network",
+      "votes": 25980,
+      "colors": {
+        "poster": [
+          "#C2906D",
+          "#1E140E"
+        ]
+      },
+      "genres": [
+        "drama"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/024/279/logos/medium/e6bc99b2e1.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/024/279/thumbs/medium/b1ef2f751f.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/024/279/banners/medium/f2285e2853.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/024/279/fanarts/medium/cd0ddb7ca2.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/024/279/posters/medium/b255fd3b83.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/024/279/cleararts/medium/0d48144901.png.webp"
+        ]
+      },
+      "rating": 7.663895130157471,
+      "status": "released",
+      "country": "us",
+      "runtime": 121,
+      "tagline": "You don't get to 500 million friends without making a few enemies.",
+      "trailer": "https://youtube.com/watch?v=rBCNU0XT9GY",
+      "homepage": "https://www.sonypictures.com/movies/thesocialnetwork",
+      "language": "en",
+      "overview": "In 2003, Harvard undergrad and computer programmer Mark Zuckerberg begins work on a new concept that eventually turns into the global social network known as Facebook. Six years later, Mark is one of the youngest billionaires ever, but his unprecedented success leads to both personal and legal complications when he ends up on the receiving end of two lawsuits, one involving his former friend.",
+      "released": "2010-10-01",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "historical-fiction",
+        "university",
+        "docudrama",
+        "blunt"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": "TheSocialNetworkMovie",
+        "instagram": null,
+        "wikipedia": "The_Social_Network"
+      },
+      "updated_at": "2026-08-29T08:27:59.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 78,
+      "during_credits": false,
+      "original_title": "The Social Network",
+      "available_translations": [
+        "ar",
+        "az",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "eu",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "uz",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319490074,
+    "watched_at": "2026-04-05T17:33:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt1757678",
+        "plex": {
+          "guid": "5d7768cc9ab54400214eba10",
+          "slug": "avatar-fire-and-ash"
+        },
+        "slug": "avatar-fire-and-ash-2025",
+        "tmdb": 83533,
+        "trakt": 62544
+      },
+      "year": 2025,
+      "title": "Avatar: Fire and Ash",
+      "votes": 23378,
+      "colors": {
+        "poster": [
+          "#CB9879",
+          "#3B2D33"
+        ]
+      },
+      "genres": [
+        "adventure",
+        "science-fiction",
+        "fantasy"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/062/544/logos/medium/6879bb24fb.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/062/544/thumbs/medium/99ca224626.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/062/544/banners/medium/e062315426.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/062/544/fanarts/medium/cf11181837.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/062/544/posters/medium/26160797b2.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/062/544/cleararts/medium/d7d7e49a5e.png.webp"
+        ]
+      },
+      "rating": 7.87646484375,
+      "status": "released",
+      "country": "us",
+      "runtime": 198,
+      "tagline": "The world of Pandora will change forever.",
+      "trailer": "https://youtube.com/watch?v=Ma1x7ikpid8",
+      "homepage": "https://www.avatar.com/movies/avatar-fire-and-ash",
+      "language": "en",
+      "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
+      "released": "2025-12-19",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "intense",
+        "witch",
+        "alien"
+      ],
+      "social_ids": {
+        "twitter": "officialavatar",
+        "facebook": "Avatar",
+        "instagram": "avatar",
+        "wikipedia": "Avatar:_Fire_and_Ash"
+      },
+      "updated_at": "2026-08-29T08:25:11.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 220,
+      "during_credits": false,
+      "original_title": "Avatar: Fire and Ash",
+      "available_translations": [
+        "ar",
+        "az",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "kk",
+        "kn",
+        "ko",
+        "lt",
+        "lv",
+        "ml",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "ta",
+        "te",
+        "th",
+        "tr",
+        "uk",
+        "ur",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320545269,
+    "watched_at": "2026-04-01T17:16:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt15574124",
+        "plex": {
+          "guid": "6163f6a27fa9b99d6f3b1f77",
+          "slug": "peaky-blinders-the-immortal-man"
+        },
+        "slug": "peaky-blinders-the-immortal-man-2026",
+        "tmdb": 875828,
+        "trakt": 701249
+      },
+      "year": 2026,
+      "title": "Peaky Blinders: The Immortal Man",
+      "votes": 10593,
+      "colors": {
+        "poster": [
+          "#D3C5A2",
+          "#231408"
+        ]
+      },
+      "genres": [
+        "crime",
+        "drama"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/701/249/logos/medium/8a2b002b24.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/701/249/thumbs/medium/f65439e30f.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/701/249/banners/medium/ba890ad11c.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/701/249/fanarts/medium/c8e5f40239.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/701/249/posters/medium/de03ebccd9.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/701/249/cleararts/medium/7865a6177f.png.webp"
+        ]
+      },
+      "rating": 7.317285060882568,
+      "status": "released",
+      "country": "gb",
+      "runtime": 112,
+      "tagline": "It will all come to this.",
+      "trailer": "https://youtube.com/watch?v=lcvUGs3xaDM",
+      "homepage": "https://www.netflix.com/title/81319485",
+      "language": "en",
+      "overview": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "released": "2026-03-06",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "betrayal",
+        "gangster",
+        "organized-crime",
+        "period-drama",
+        "based-on-tv-series",
+        "1940s"
+      ],
+      "social_ids": {
+        "twitter": "ThePeakyBlinder",
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "The_Immortal_Man_(film)"
+      },
+      "updated_at": "2026-08-28T17:41:15.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 62,
+      "during_credits": false,
+      "original_title": "Peaky Blinders: The Immortal Man",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "ms",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sv",
+        "th",
+        "tl",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320222460,
+    "watched_at": "2026-02-28T15:59:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt32376165",
+        "plex": {
+          "guid": "6643fb17b059625838476ab8",
+          "slug": "a-house-of-dynamite"
+        },
+        "slug": "a-house-of-dynamite-2025",
+        "tmdb": 1290159,
+        "trakt": 1049823
+      },
+      "year": 2025,
+      "title": "A House of Dynamite",
+      "votes": 10601,
+      "colors": {
+        "poster": [
+          "#879BA4",
+          "#322026"
+        ]
+      },
+      "genres": [
+        "thriller",
+        "drama"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/001/049/823/logos/medium/e1e1f70588.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/001/049/823/thumbs/medium/6d40b8163b.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/001/049/823/banners/medium/7dc86fbadb.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/001/049/823/fanarts/medium/56530050e3.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/001/049/823/posters/medium/1ee93ddb66.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/001/049/823/cleararts/medium/156a05fa6d.png.webp"
+        ]
+      },
+      "rating": 6.5291008949279785,
+      "status": "released",
+      "country": "us",
+      "runtime": 112,
+      "tagline": "Not if. When.",
+      "trailer": "https://youtube.com/watch?v=_wpw2QHJNco",
+      "homepage": "https://www.ahouseofdynamitefilm.com",
+      "language": "en",
+      "overview": "When a single, unattributed missile is launched at the United States, a race begins to determine who is responsible and how to respond.",
+      "released": "2025-10-10",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "political-thriller"
+      ],
+      "social_ids": {
+        "twitter": "house_dynamite",
+        "facebook": "ahouseofdynamite",
+        "instagram": "ahouseofdynamite",
+        "wikipedia": "A_House_of_Dynamite"
+      },
+      "updated_at": "2026-08-28T17:41:46.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 156,
+      "during_credits": false,
+      "original_title": "A House of Dynamite",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "ms",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tl",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319646561,
+    "watched_at": "2026-02-27T19:44:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt16426418",
+        "plex": {
+          "guid": "61bd9c29bbaecd52f2fc603b",
+          "slug": "challengers-2024"
+        },
+        "slug": "challengers-2024",
+        "tmdb": 937287,
+        "trakt": 752123
+      },
+      "year": 2024,
+      "title": "Challengers",
+      "votes": 15618,
+      "colors": {
+        "poster": [
+          "#B08F7C",
+          "#4C3830"
+        ]
+      },
+      "genres": [
+        "drama",
+        "romance"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/752/123/logos/medium/83606133fd.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/752/123/thumbs/medium/0a9a3062e6.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/752/123/banners/medium/a3bff70d62.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/752/123/fanarts/medium/9534a045a1.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/752/123/posters/medium/2d7995bd8d.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/752/123/cleararts/medium/5ed902889f.png.webp"
+        ]
+      },
+      "rating": 7.233576774597168,
+      "status": "released",
+      "country": "us",
+      "runtime": 132,
+      "tagline": "Her game. Her rules.",
+      "trailer": "https://youtube.com/watch?v=-2N3hmRmwHQ",
+      "homepage": "https://www.amazon.com/salp/challengers?hhf",
+      "language": "en",
+      "overview": "Tennis player turned coach Tashi has taken her husband, Art, and transformed him into a world-famous Major champion. To jolt him out of his recent losing streak, she signs him up for a \"Challenger\" event — close to the lowest level of pro tournament — where he finds himself standing across the net from his former best friend and Tashi's former boyfriend.",
+      "released": "2024-04-26",
+      "languages": [
+        "en",
+        "ro"
+      ],
+      "subgenres": [
+        "love-triangle",
+        "sports",
+        "husband-wife-relationship",
+        "infidelity",
+        "male-friendship",
+        "competition",
+        "ex-boyfriend-ex-girlfriend-relationship",
+        "rivalry"
+      ],
+      "social_ids": {
+        "twitter": "challengersmov",
+        "facebook": "challengersmovie",
+        "instagram": "challengersmovie",
+        "wikipedia": "Challengers_(film)"
+      },
+      "updated_at": "2026-08-29T08:21:58.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 110,
+      "during_credits": false,
+      "original_title": "Challengers",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "ms",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "ta",
+        "te",
+        "th",
+        "tl",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319843775,
+    "watched_at": "2026-02-26T18:57:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt31050594",
+        "plex": {
+          "guid": "65b41a7eb5cab988940e14b1",
+          "slug": "mercy-2026"
+        },
+        "slug": "mercy-2026",
+        "tmdb": 1236153,
+        "trakt": 1000015
+      },
+      "year": 2026,
+      "title": "Mercy",
+      "votes": 12510,
+      "colors": {
+        "poster": [
+          "#D3D6D1",
+          "#564238"
+        ]
+      },
+      "genres": [
+        "science-fiction",
+        "action",
+        "thriller"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/001/000/015/logos/medium/f75246b9b7.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/001/000/015/thumbs/medium/15b5134234.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/001/000/015/banners/medium/a12658a749.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/001/000/015/fanarts/medium/d0d8b1da12.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/001/000/015/posters/medium/504c0cc266.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/001/000/015/cleararts/medium/3869f112e8.png.webp"
+        ]
+      },
+      "rating": 7.074740409851074,
+      "status": "released",
+      "country": "us",
+      "runtime": 100,
+      "tagline": "Prove your innocence to an AI judge or face execution.",
+      "trailer": "https://youtube.com/watch?v=JUADqWkJiiE",
+      "homepage": "https://www.amazon.com/salp/mercy?hhf=",
+      "language": "en",
+      "overview": "In the near future, a detective stands on trial accused of murdering his wife. He has ninety minutes to prove his innocence to the advanced AI Judge he once championed, before it determines his fate.",
+      "released": "2026-01-23",
+      "languages": [
+        "en",
+        "fr",
+        "hi"
+      ],
+      "subgenres": [
+        "dystopia",
+        "kidnapping",
+        "cop",
+        "father-daughter-relationship",
+        "artificial-intelligence-a-i",
+        "near-future"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": "MercytheMovie",
+        "instagram": "mercymovie",
+        "wikipedia": "Mercy_(2026_film)"
+      },
+      "updated_at": "2026-08-29T08:15:01.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 106,
+      "during_credits": false,
+      "original_title": "Mercy",
+      "available_translations": [
+        "ar",
+        "az",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319648875,
+    "watched_at": "2026-02-21T16:45:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt32642706",
+        "plex": {
+          "guid": "66732f3c27d25d0ddafce7a8",
+          "slug": "the-rip-2026"
+        },
+        "slug": "the-rip-2026",
+        "tmdb": 1306368,
+        "trakt": 1065701
+      },
+      "year": 2026,
+      "title": "The Rip",
+      "votes": 13764,
+      "colors": {
+        "poster": [
+          "#BA8B4E",
+          "#261709"
+        ]
+      },
+      "genres": [
+        "thriller",
+        "crime",
+        "action"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/001/065/701/logos/medium/82a5bf7bab.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/001/065/701/thumbs/medium/4ceaf92ce9.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/001/065/701/banners/medium/64642f6912.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/001/065/701/fanarts/medium/98b6d44c16.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/001/065/701/posters/medium/7a21c11250.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/001/065/701/cleararts/medium/f2f3390de3.png.webp"
+        ]
+      },
+      "rating": 7.401700019836426,
+      "status": "released",
+      "country": "us",
+      "runtime": 113,
+      "tagline": "Count the money. Count it again. Count on no one.",
+      "trailer": "https://youtube.com/watch?v=yeR5bcbRPak",
+      "homepage": "https://www.netflix.com/title/81915745",
+      "language": "en",
+      "overview": "Trust frays when a team of Miami cops discovers millions in cash inside a run-down stash house, calling everyone — and everything — into question.",
+      "released": "2026-01-16",
+      "languages": [
+        "en",
+        "es"
+      ],
+      "subgenres": [
+        "betrayal",
+        "investigation",
+        "police",
+        "shootout",
+        "violence"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": "",
+        "instagram": "",
+        "wikipedia": "The_Rip_(film)"
+      },
+      "updated_at": "2026-08-28T17:41:21.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 87,
+      "during_credits": false,
+      "original_title": "The Rip",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "ms",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tl",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320229408,
+    "watched_at": "2026-02-17T18:02:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt27543632",
+        "plex": {
+          "guid": "6444698339b14cd38176a513",
+          "slug": "the-housemaid-2025"
+        },
+        "slug": "the-housemaid-2025",
+        "tmdb": 1368166,
+        "trakt": 1117195
+      },
+      "year": 2025,
+      "title": "The Housemaid",
+      "votes": 24140,
+      "colors": {
+        "poster": [
+          "#B19852",
+          "#2E292F"
+        ]
+      },
+      "genres": [
+        "thriller",
+        "mystery"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/001/117/195/logos/medium/81e8cccad1.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/001/117/195/thumbs/medium/7d914fc58c.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/001/117/195/banners/medium/047e6b7eba.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/001/117/195/fanarts/medium/51bd8f4276.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/001/117/195/posters/medium/d30b246b25.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/001/117/195/cleararts/medium/2bdd0c611d.png.webp"
+        ]
+      },
+      "rating": 7.5451531410217285,
+      "status": "released",
+      "country": "us",
+      "runtime": 131,
+      "tagline": "Discover what lies behind closed doors.",
+      "trailer": "https://youtube.com/watch?v=BqWH0KDqm3U",
+      "homepage": "https://thehousemaid.movie",
+      "language": "en",
+      "overview": "Trying to escape her past, Millie Calloway accepts a job as a live-in housemaid for the wealthy Nina and Andrew Winchester. But what begins as a dream job quickly unravels into something far more dangerous—a sexy, seductive game of secrets, scandal, and power.",
+      "released": "2025-12-19",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "psychological-thriller",
+        "authoritarian",
+        "manipulation",
+        "mysterious",
+        "secret",
+        "suspense-thriller"
+      ],
+      "social_ids": {
+        "twitter": "HousemaidMovie",
+        "facebook": "HousemaidMovie",
+        "instagram": "housemaidmovie",
+        "wikipedia": "The_Housemaid_(2025_film)"
+      },
+      "updated_at": "2026-08-29T08:20:33.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 173,
+      "during_credits": false,
+      "original_title": "The Housemaid",
+      "available_translations": [
+        "ar",
+        "az",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "eu",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320224433,
+    "watched_at": "2026-02-06T14:00:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt30144839",
+        "plex": {
+          "guid": "6562d1dbf8acedbdfebce1d1",
+          "slug": "one-battle-after-another"
+        },
+        "slug": "one-battle-after-another-2025",
+        "tmdb": 1054867,
+        "trakt": 848797
+      },
+      "year": 2025,
+      "title": "One Battle After Another",
+      "votes": 26602,
+      "colors": {
+        "poster": [
+          "#BC8053",
+          "#3E2E1F"
+        ]
+      },
+      "genres": [
+        "thriller",
+        "crime",
+        "comedy"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/848/797/logos/medium/13646506d0.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/848/797/thumbs/medium/e36bd15ac4.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/848/797/banners/medium/ccbe994461.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/848/797/fanarts/medium/66b23f65fd.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/848/797/posters/medium/831e7bae7c.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/848/797/cleararts/medium/959e6de10f.png.webp"
+        ]
+      },
+      "rating": 7.568716526031494,
+      "status": "released",
+      "country": "us",
+      "runtime": 162,
+      "tagline": "Some search for battle, others are born into it...",
+      "trailer": "https://youtube.com/watch?v=u6GVb4p7oD4",
+      "homepage": "https://www.onebattleafteranothermovie.com",
+      "language": "en",
+      "overview": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "released": "2025-09-26",
+      "languages": [
+        "en",
+        "es",
+        "fr"
+      ],
+      "subgenres": [
+        "father-daughter-relationship",
+        "on-the-run",
+        "interracial-relationship",
+        "resistance"
+      ],
+      "social_ids": {
+        "twitter": "onebattlemovie",
+        "facebook": null,
+        "instagram": "onebattleafteranothermovie",
+        "wikipedia": "One_Battle_After_Another"
+      },
+      "updated_at": "2026-08-29T08:12:42.000Z",
+      "after_credits": true,
+      "certification": "R",
+      "comment_count": 231,
+      "during_credits": false,
+      "original_title": "One Battle After Another",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14321690148,
+    "watched_at": "2026-01-20T19:37:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt31227572",
+        "plex": {
+          "guid": "65ca74670a8f3c2de645d488",
+          "slug": "predator-badlands"
+        },
+        "slug": "predator-badlands-2025",
+        "tmdb": 1242898,
+        "trakt": 1006226
+      },
+      "year": 2025,
+      "title": "Predator: Badlands",
+      "votes": 18721,
+      "colors": {
+        "poster": [
+          "#B1654C",
+          "#2D231F"
+        ]
+      },
+      "genres": [
+        "science-fiction",
+        "action",
+        "adventure"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/001/006/226/logos/medium/97091ba980.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/001/006/226/thumbs/medium/01362ecb50.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/001/006/226/banners/medium/1e6201e9fd.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/001/006/226/fanarts/medium/fb764a7e2c.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/001/006/226/posters/medium/318638f75f.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/001/006/226/cleararts/medium/d7748a88e4.png.webp"
+        ]
+      },
+      "rating": 7.637732982635498,
+      "status": "released",
+      "country": "us",
+      "runtime": 107,
+      "tagline": "First hunt. Last chance.",
+      "trailer": "https://youtube.com/watch?v=LkBqjfg8TGM",
+      "homepage": "https://www.20thcenturystudios.com/movies/predator-badlands",
+      "language": "en",
+      "overview": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary.",
+      "released": "2025-11-07",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "subgenres": [
+        "spin-off",
+        "survival",
+        "vibrant"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "Predator:_Badlands"
+      },
+      "updated_at": "2026-08-28T17:41:27.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 179,
+      "during_credits": false,
+      "original_title": "Predator: Badlands",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320203754,
+    "watched_at": "2026-01-09T10:56:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt9764362",
+        "plex": {
+          "guid": "5d7770d1b2739400200ea443",
+          "slug": "the-menu-2022"
+        },
+        "slug": "the-menu-2022",
+        "tmdb": 593643,
+        "trakt": 439843
+      },
+      "year": 2022,
+      "title": "The Menu",
+      "votes": 32464,
+      "colors": {
+        "poster": [
+          "#B09895",
+          "#191415"
+        ]
+      },
+      "genres": [
+        "horror",
+        "comedy"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/439/843/logos/medium/e57a2092d7.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/439/843/thumbs/medium/623535b691.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/439/843/banners/medium/cd92eccfc0.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/439/843/fanarts/medium/60e9a069b9.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/439/843/posters/medium/5116bd01ec.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/439/843/cleararts/medium/3ded60928f.png.webp"
+        ]
+      },
+      "rating": 7.530403137207031,
+      "status": "released",
+      "country": "us",
+      "runtime": 107,
+      "tagline": "Painstakingly prepared. Brilliantly executed.",
+      "trailer": "https://youtube.com/watch?v=C_uTkUGcHv4",
+      "homepage": "https://searchlightpictures.com/the-menu",
+      "language": "en",
+      "overview": "A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
+      "released": "2022-11-18",
+      "languages": [
+        "en",
+        "es"
+      ],
+      "subgenres": [
+        "revenge",
+        "dark-comedy",
+        "psychopath",
+        "culinary-arts",
+        "food",
+        "chef",
+        "restaurant"
+      ],
+      "social_ids": {
+        "twitter": "TheMenuFilm",
+        "facebook": "TheMenuFilm",
+        "instagram": "themenufilm",
+        "wikipedia": "The_Menu_(2022_film)"
+      },
+      "updated_at": "2026-08-28T17:35:44.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 223,
+      "during_credits": false,
+      "original_title": "The Menu",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "my",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320541807,
+    "watched_at": "2026-01-02T12:16:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt12300742",
+        "plex": {
+          "guid": "5eb8f2a980cbc90042184b29",
+          "slug": "bugonia"
+        },
+        "slug": "bugonia-2025",
+        "tmdb": 701387,
+        "trakt": 545111
+      },
+      "year": 2025,
+      "title": "Bugonia",
+      "votes": 16300,
+      "colors": {
+        "poster": [
+          "#BB7F5B",
+          "#5C1E1B"
+        ]
+      },
+      "genres": [
+        "science-fiction",
+        "thriller",
+        "comedy"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/545/111/logos/medium/32ae711372.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/545/111/thumbs/medium/f190860303.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/545/111/banners/medium/06f24ed3ff.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/545/111/fanarts/medium/d74978e380.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/545/111/posters/medium/c6d3fb1ee5.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/545/111/cleararts/medium/ce3c0252de.png.webp"
+        ]
+      },
+      "rating": 7.450122833251953,
+      "status": "released",
+      "country": "us",
+      "runtime": 119,
+      "tagline": "Of all the abductions, this one is different.",
+      "trailer": "https://youtube.com/watch?v=7VBigr-JHB0",
+      "homepage": "https://www.focusfeatures.com/bugonia",
+      "language": "en",
+      "overview": "Two conspiracy obsessed young men kidnap the high-powered CEO of a major company, convinced that she is an alien intent on destroying planet Earth.",
+      "released": "2025-10-24",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "kidnapping",
+        "satire",
+        "dark-comedy",
+        "paranoia",
+        "mental-illness",
+        "alien",
+        "alien-invasion",
+        "absurdism",
+        "comedy-horror",
+        "extraterrestrial",
+        "saving-the-world"
+      ],
+      "social_ids": {
+        "twitter": "bugoniafilm",
+        "facebook": "bugoniafilm",
+        "instagram": "bugoniafilm",
+        "wikipedia": "Bugonia_(film)"
+      },
+      "updated_at": "2026-08-28T17:40:57.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 157,
+      "during_credits": false,
+      "original_title": "Bugonia",
+      "available_translations": [
+        "ar",
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14321492407,
+    "watched_at": "2025-12-13T18:00:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt14364480",
+        "plex": {
+          "guid": "6066880ce3e5b1002c9aee03",
+          "slug": "wake-up-dead-man"
+        },
+        "slug": "wake-up-dead-man-a-knives-out-mystery-2025",
+        "tmdb": 812583,
+        "trakt": 646497
+      },
+      "year": 2025,
+      "title": "Wake Up Dead Man: A Knives Out Mystery",
+      "votes": 23418,
+      "colors": {
+        "poster": [
+          "#B6BEB4",
+          "#161715"
+        ]
+      },
+      "genres": [
+        "mystery",
+        "thriller",
+        "comedy"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/646/497/logos/medium/162c3b0282.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/646/497/thumbs/medium/82ff8a5e53.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/646/497/banners/medium/e5d853941b.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/646/497/fanarts/medium/485d69329f.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/646/497/posters/medium/cdf37965e2.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/646/497/cleararts/medium/2c2c3d8d53.png.webp"
+        ]
+      },
+      "rating": 7.7758989334106445,
+      "status": "released",
+      "country": "us",
+      "runtime": 145,
+      "tagline": "He works in mysterious ways.",
+      "trailer": "https://youtube.com/watch?v=0hc8yz5-d5Y",
+      "homepage": "https://www.wakeupdeadmanfilm.com/home",
+      "language": "en",
+      "overview": "When young priest Jud Duplenticy is sent to assist charismatic firebrand Monsignor Jefferson Wicks, it’s clear that all is not well in the pews. After a sudden and seemingly impossible murder rocks the town, the lack of an obvious suspect prompts local police chief Geraldine Scott to join forces with renowned detective Benoit Blanc to unravel a mystery that defies all logic.",
+      "released": "2025-11-26",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "dark-comedy",
+        "murder-investigation",
+        "murder-mystery",
+        "whodunit"
+      ],
+      "social_ids": {
+        "twitter": "KnivesOut",
+        "facebook": "KnivesOutOfficial",
+        "instagram": "knivesout",
+        "wikipedia": "Wake_Up_Dead_Man"
+      },
+      "updated_at": "2026-08-29T08:16:20.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 149,
+      "during_credits": false,
+      "original_title": "Wake Up Dead Man: A Knives Out Mystery",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "ms",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tl",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14321496278,
+    "watched_at": "2025-12-12T19:01:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt26443597",
+        "plex": {
+          "guid": "63d15b0b38992be08a0efa6f",
+          "slug": "zootopia-2-2025-2"
+        },
+        "slug": "zootopia-2-2025",
+        "tmdb": 1084242,
+        "trakt": 871499
+      },
+      "year": 2025,
+      "title": "Zootopia 2",
+      "votes": 21741,
+      "colors": {
+        "poster": [
+          "#A39EA2",
+          "#49403C"
+        ]
+      },
+      "genres": [
+        "family",
+        "comedy",
+        "adventure",
+        "animation",
+        "mystery"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/871/499/logos/medium/827b7d1f43.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/871/499/thumbs/medium/2db5fd6147.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/871/499/banners/medium/5018aef174.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/871/499/fanarts/medium/658d8622b8.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/871/499/posters/medium/e9f7dbcbfc.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/871/499/cleararts/medium/ec8b0c632a.png.webp"
+        ]
+      },
+      "rating": 8.191527366638184,
+      "status": "released",
+      "country": "us",
+      "runtime": 108,
+      "tagline": "They're back with a twissst.",
+      "trailer": "https://youtube.com/watch?v=sEgPQ7HKoBA",
+      "homepage": "https://movies.disney.com/zootopia-2",
+      "language": "en",
+      "overview": "After cracking the biggest case in Zootopia's history, rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery when Gary De'Snake arrives and turns the animal metropolis upside down. To crack the case, Judy and Nick must go undercover to unexpected new parts of town, where their growing partnership is tested like never before.",
+      "released": "2025-11-26",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "animals",
+        "anthropomorphism",
+        "3d-animation",
+        "playful",
+        "talking-animal",
+        "cop"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "Zootopia_2"
+      },
+      "updated_at": "2026-08-29T08:21:16.000Z",
+      "after_credits": false,
+      "certification": "PG",
+      "comment_count": 120,
+      "during_credits": false,
+      "original_title": "Zootopia 2",
+      "available_translations": [
+        "ar",
+        "az",
+        "be",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "is",
+        "it",
+        "ja",
+        "ka",
+        "kk",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14321903472,
+    "watched_at": "2025-11-29T17:20:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt31973693",
+        "plex": {
+          "guid": "660e382527d47f946df7577d",
+          "slug": "the-roses-2025"
+        },
+        "slug": "the-roses-2025",
+        "tmdb": 1267905,
+        "trakt": 1029272
+      },
+      "year": 2025,
+      "title": "The Roses",
+      "votes": 6222,
+      "colors": {
+        "poster": [
+          "#F6F2F1",
+          "#5A3339"
+        ]
+      },
+      "genres": [
+        "comedy",
+        "drama",
+        "romance"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/001/029/272/logos/medium/6c6f3749ff.png.webp"
+        ],
+        "thumb": [],
+        "banner": [
+          "media.trakt.tv/images/movies/001/029/272/banners/medium/20db03aad0.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/001/029/272/fanarts/medium/3e4837e92f.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/001/029/272/posters/medium/d4e3aa4013.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 7.125361442565918,
+      "status": "released",
+      "country": "gb",
+      "runtime": 105,
+      "tagline": "This marriage ain't big enough for the both of them.",
+      "trailer": "https://youtube.com/watch?v=rb3x45F6mrQ",
+      "homepage": "https://www.searchlightpictures.com/the-roses",
+      "language": "en",
+      "overview": "Life seems easy for picture-perfect couple Ivy and Theo: successful careers, a loving marriage, great kids. But beneath the façade of their supposed ideal life, a storm is brewing – as Theo's career nosedives while Ivy's own ambitions take off, a tinderbox of fierce competition and hidden resentment ignites.",
+      "released": "2025-08-29",
+      "languages": [
+        "en",
+        "es"
+      ],
+      "subgenres": [
+        "intense",
+        "dark-comedy",
+        "husband-wife-relationship"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "The_Roses_(film)"
+      },
+      "updated_at": "2026-08-28T17:41:40.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 61,
+      "during_credits": false,
+      "original_title": "The Roses",
+      "available_translations": [
+        "ar",
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14321506264,
+    "watched_at": "2025-11-21T17:03:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt1312221",
+        "plex": {
+          "guid": "5d776e1651dd69001fe48a6e",
+          "slug": "frankenstein-2025"
+        },
+        "slug": "frankenstein-2025",
+        "tmdb": 1062722,
+        "trakt": 854887
+      },
+      "year": 2025,
+      "title": "Frankenstein",
+      "votes": 24409,
+      "colors": {
+        "poster": [
+          "#B5A975",
+          "#2C1B17"
+        ]
+      },
+      "genres": [
+        "drama",
+        "horror",
+        "fantasy"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/854/887/logos/medium/0923b3e14b.png.webp"
+        ],
+        "thumb": [],
+        "banner": [],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/854/887/fanarts/medium/416772b451.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/854/887/posters/medium/c3504072ae.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/854/887/cleararts/medium/eb07128610.png.webp"
+        ]
+      },
+      "rating": 7.8896307945251465,
+      "status": "released",
+      "country": "us",
+      "runtime": 150,
+      "tagline": "Only monsters play God.",
+      "trailer": "https://youtube.com/watch?v=9WZllcEgWrM",
+      "homepage": "https://www.frankensteingdt.com",
+      "language": "en",
+      "overview": "Dr. Victor Frankenstein, a brilliant but egotistical scientist, brings a creature to life in a monstrous experiment that ultimately leads to the undoing of both the creator and his tragic creation.",
+      "released": "2025-10-17",
+      "languages": [
+        "da",
+        "en",
+        "fr"
+      ],
+      "subgenres": [
+        "monster",
+        "supernatural",
+        "father-son-relationship",
+        "mad-scientist"
+      ],
+      "social_ids": {
+        "twitter": "FrankensteinGDT",
+        "facebook": "FrankensteinGDT",
+        "instagram": "frankensteingdt",
+        "wikipedia": "Frankenstein_(2025_film)"
+      },
+      "updated_at": "2026-08-29T08:21:31.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 169,
+      "during_credits": false,
+      "original_title": "Frankenstein",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "eu",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "mk",
+        "ms",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tl",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14321500237,
+    "watched_at": "2025-11-14T19:02:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt4712810",
+        "plex": {
+          "guid": "5d776c8a23d5a3001f51c944",
+          "slug": "now-you-see-me-now-you-dont-2025"
+        },
+        "slug": "now-you-see-me-now-you-don-t-2025",
+        "tmdb": 425274,
+        "trakt": 292275
+      },
+      "year": 2025,
+      "title": "Now You See Me: Now You Don't",
+      "votes": 15305,
+      "colors": {
+        "poster": [
+          "#7698B6",
+          "#172846"
+        ]
+      },
+      "genres": [
+        "thriller",
+        "crime"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/292/275/logos/medium/e24778a3ff.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/292/275/thumbs/medium/16867e6d62.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/292/275/banners/medium/868b14ba60.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/292/275/fanarts/medium/a6ea8741b4.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/292/275/posters/medium/5df9defe1b.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/292/275/cleararts/medium/989de77307.png.webp"
+        ]
+      },
+      "rating": 6.891016006469727,
+      "status": "released",
+      "country": "us",
+      "runtime": 112,
+      "tagline": "Unlock the illusion.",
+      "trailer": "https://youtube.com/watch?v=lLWESUfW-0A",
+      "homepage": "https://nowyouseeme.movie",
+      "language": "en",
+      "overview": "The original Four Horsemen reunite with a new generation of illusionists to take on powerful diamond heiress Veronika Vanderberg, who leads a criminal empire built on money laundering and trafficking. The new and old magicians must overcome their differences to work together on their most ambitious heist yet.",
+      "released": "2025-11-14",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "absurd"
+      ],
+      "social_ids": {
+        "twitter": "NYSMmovie",
+        "facebook": "NowYouSeeMeMovie",
+        "instagram": "nysmmovie",
+        "wikipedia": "Now_You_See_Me:_Now_You_Don't"
+      },
+      "updated_at": "2026-08-29T08:22:54.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 110,
+      "during_credits": false,
+      "original_title": "Now You See Me: Now You Don't",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320226680,
+    "watched_at": "2025-10-11T14:00:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt16311594",
+        "plex": {
+          "guid": "61b0a23cc2629c42c5fe61cd",
+          "slug": "f1"
+        },
+        "slug": "f1-2025",
+        "tmdb": 911430,
+        "trakt": 729817
+      },
+      "year": 2025,
+      "title": "F1",
+      "votes": 31787,
+      "colors": {
+        "poster": [
+          "#B9BCBA",
+          "#353834"
+        ]
+      },
+      "genres": [
+        "action",
+        "drama"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/729/817/logos/medium/0fe7239dc7.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/729/817/thumbs/medium/cc64572089.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/729/817/banners/medium/717826f131.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/729/817/fanarts/medium/7c2de45ca9.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/729/817/posters/medium/82fc3d3b0c.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/729/817/cleararts/medium/142acdec0e.png.webp"
+        ]
+      },
+      "rating": 8.09151554107666,
+      "status": "released",
+      "country": "us",
+      "runtime": 156,
+      "tagline": "Let's ride.",
+      "trailer": "https://youtube.com/watch?v=ge_ABjtYx88",
+      "homepage": "https://www.f1themovie.com",
+      "language": "en",
+      "overview": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+      "released": "2025-06-27",
+      "languages": [
+        "da",
+        "en",
+        "de",
+        "es"
+      ],
+      "subgenres": [
+        "sports",
+        "joyful",
+        "sport-competition"
+      ],
+      "social_ids": {
+        "twitter": "F1Movie",
+        "facebook": "f1movie",
+        "instagram": "f1movie",
+        "wikipedia": "F1_(film)"
+      },
+      "updated_at": "2026-08-29T08:23:19.000Z",
+      "after_credits": true,
+      "certification": "PG-13",
+      "comment_count": 240,
+      "during_credits": false,
+      "original_title": "F1",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "mk",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319834184,
+    "watched_at": "2025-01-18T14:53:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt28607951",
+        "plex": {
+          "guid": "64d57c2ea5e751c7bafbc457",
+          "slug": "anora-2024"
+        },
+        "slug": "anora-2024",
+        "tmdb": 1064213,
+        "trakt": 856080
+      },
+      "year": 2024,
+      "title": "Anora",
+      "votes": 18710,
+      "colors": {
+        "poster": [
+          "#C88989",
+          "#482439"
+        ]
+      },
+      "genres": [
+        "drama",
+        "comedy",
+        "romance"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/856/080/logos/medium/e47128563d.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/856/080/thumbs/medium/2d224f6d8e.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/856/080/banners/medium/725790612a.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/856/080/fanarts/medium/5e0b762ef7.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/856/080/posters/medium/929ded68f8.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/856/080/cleararts/medium/64dd0cc5d8.png.webp"
+        ]
+      },
+      "rating": 7.237145900726318,
+      "status": "released",
+      "country": "us",
+      "runtime": 139,
+      "tagline": "Love is a hustle.",
+      "trailer": "https://youtube.com/watch?v=8m6UrWMl18M",
+      "homepage": "https://anora.film",
+      "language": "en",
+      "overview": "A young sex worker from Brooklyn gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as his parents set out to get the marriage annulled.",
+      "released": "2024-10-18",
+      "languages": [
+        "en",
+        "ru",
+        "hy"
+      ],
+      "subgenres": [
+        "marriage",
+        "independent-film",
+        "female-protagonist",
+        "new-year-s-eve",
+        "screwball-comedy",
+        "brooklyn-new-york-city"
+      ],
+      "social_ids": {
+        "twitter": "AnoraFilm",
+        "facebook": null,
+        "instagram": "anorafilm",
+        "wikipedia": "Anora"
+      },
+      "updated_at": "2026-08-29T08:15:59.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 182,
+      "during_credits": false,
+      "original_title": "Anora",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319814940,
+    "watched_at": "2024-06-30T13:52:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt17279496",
+        "plex": {
+          "guid": "61ed4a5819b0331e2cd45282",
+          "slug": "civil-war-2024"
+        },
+        "slug": "civil-war-2024",
+        "tmdb": 929590,
+        "trakt": 745438
+      },
+      "year": 2024,
+      "title": "Civil War",
+      "votes": 21534,
+      "colors": {
+        "poster": [
+          "#BAB288",
+          "#34322B"
+        ]
+      },
+      "genres": [
+        "action",
+        "war",
+        "drama"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/745/438/logos/medium/c653250c5a.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/745/438/thumbs/medium/5a7bdb0a85.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/745/438/banners/medium/014cc09c24.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/745/438/fanarts/medium/d9bb27e772.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/745/438/posters/medium/87df131090.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/745/438/cleararts/medium/dc5b03c8aa.png.webp"
+        ]
+      },
+      "rating": 7.0358500480651855,
+      "status": "released",
+      "country": "gb",
+      "runtime": 109,
+      "tagline": "Welcome to the frontline.",
+      "trailer": "https://youtube.com/watch?v=c2G18nIVpNE",
+      "homepage": "https://a24films.com/films/civil-war",
+      "language": "en",
+      "overview": "In the near future, a group of war journalists attempt to survive while reporting the truth as the United States stands on the brink of civil war.",
+      "released": "2024-04-11",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "dystopia",
+        "soldier",
+        "road-trip",
+        "war-crimes",
+        "female-protagonist",
+        "near-future",
+        "journalism",
+        "violence",
+        "usa-politics",
+        "civil-war",
+        "post-traumatic-stress-disorder-ptsd"
+      ],
+      "social_ids": {
+        "twitter": "CivilWarMovie",
+        "facebook": "civilwarmovie",
+        "instagram": "civilwarmovie",
+        "wikipedia": "Civil_War_(film)"
+      },
+      "updated_at": "2026-08-29T08:30:09.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 207,
+      "during_credits": false,
+      "original_title": "Civil War",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320546939,
+    "watched_at": "2023-12-27T17:17:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt1136617",
+        "plex": {
+          "guid": "5f408eb552f20000415f59c6",
+          "slug": "the-killer-2023"
+        },
+        "slug": "the-killer-2023",
+        "tmdb": 800158,
+        "trakt": 635402
+      },
+      "year": 2023,
+      "title": "The Killer",
+      "votes": 14586,
+      "colors": {
+        "poster": [
+          "#A9A393",
+          "#2F3839"
+        ]
+      },
+      "genres": [
+        "crime",
+        "thriller"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/635/402/logos/medium/fd40851aee.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/635/402/thumbs/medium/375f40041d.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/635/402/banners/medium/b34a05f4b6.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/635/402/fanarts/medium/c9e8de6b91.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/635/402/posters/medium/4a6a9c9bce.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/635/402/cleararts/medium/b5e672a7e8.png.webp"
+        ]
+      },
+      "rating": 6.722610950469971,
+      "status": "released",
+      "country": "us",
+      "runtime": 118,
+      "tagline": "Execution is everything.",
+      "trailer": "https://youtube.com/watch?v=5S7FR_HCg9g",
+      "homepage": "https://www.netflix.com/title/80234448",
+      "language": "en",
+      "overview": "After a fateful miss, an assassin battles his employers, and himself, on an international manhunt he insists isn't personal.",
+      "released": "2023-10-27",
+      "languages": [
+        "en",
+        "fr",
+        "es"
+      ],
+      "subgenres": [
+        "assassin",
+        "hitman",
+        "intense",
+        "murder",
+        "revenge",
+        "dark-comedy",
+        "lawyer",
+        "brutality",
+        "suspenseful",
+        "product-placement",
+        "satirical",
+        "based-on-graphic-novel",
+        "psychological",
+        "dark",
+        "secret",
+        "violence",
+        "perfectionist"
+      ],
+      "social_ids": {
+        "twitter": "thekillermovie",
+        "facebook": "thekillermovie",
+        "instagram": "thekillermovie",
+        "wikipedia": "The_Killer_(2023_film)"
+      },
+      "updated_at": "2026-08-29T08:26:26.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 126,
+      "during_credits": false,
+      "original_title": "The Killer",
+      "available_translations": [
+        "ar",
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "ms",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tl",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320180864,
+    "watched_at": "2023-10-29T14:50:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt5537002",
+        "plex": {
+          "guid": "5d776d3dad5437001f7d0d50",
+          "slug": "killers-of-the-flower-moon"
+        },
+        "slug": "killers-of-the-flower-moon-2023",
+        "tmdb": 466420,
+        "trakt": 313884
+      },
+      "year": 2023,
+      "title": "Killers of the Flower Moon",
+      "votes": 17979,
+      "colors": {
+        "poster": [
+          "#CC906C",
+          "#2F2421"
+        ]
+      },
+      "genres": [
+        "crime",
+        "drama",
+        "history"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/313/884/logos/medium/b47e5f2444.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/313/884/thumbs/medium/2973906672.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/313/884/banners/medium/4f08873a8e.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/313/884/fanarts/medium/60119d5e6a.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/313/884/posters/medium/9f972af53a.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/313/884/cleararts/medium/8c6a44745c.png.webp"
+        ]
+      },
+      "rating": 7.545358657836914,
+      "status": "released",
+      "country": "us",
+      "runtime": 206,
+      "tagline": "Can you find the wolves in this picture?",
+      "trailer": "https://youtube.com/watch?v=1oZUCkJEuvo",
+      "homepage": "https://www.paramountmovies.com/movies/killers-of-the-flower-moon",
+      "language": "en",
+      "overview": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
+      "released": "2023-10-20",
+      "languages": [
+        "en",
+        "la",
+        "fr"
+      ],
+      "subgenres": [
+        "fbi",
+        "murder",
+        "period-drama",
+        "native-american",
+        "husband-wife-relationship",
+        "true-crime",
+        "manipulation",
+        "1920s",
+        "racism",
+        "meta"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": "KillersoftheFlowerMoonFilm",
+        "instagram": null,
+        "wikipedia": "Killers_of_the_Flower_Moon_(film)"
+      },
+      "updated_at": "2026-08-28T17:20:08.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 106,
+      "during_credits": false,
+      "original_title": "Killers of the Flower Moon",
+      "available_translations": [
+        "ar",
+        "az",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319844669,
+    "watched_at": "2023-10-15T16:57:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt13603966",
+        "plex": {
+          "guid": "5f0d30b490f2a8003a22be04",
+          "slug": "heart-of-stone-2023-1"
+        },
+        "slug": "heart-of-stone-2023",
+        "tmdb": 724209,
+        "trakt": 566681
+      },
+      "year": 2023,
+      "title": "Heart of Stone",
+      "votes": 8376,
+      "colors": {
+        "poster": [
+          "#D2B9A7",
+          "#7B5B4F"
+        ]
+      },
+      "genres": [
+        "thriller",
+        "action",
+        "crime"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/566/681/logos/medium/77183de9a0.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/566/681/thumbs/medium/2ea7497281.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/566/681/banners/medium/4a0eb179ea.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/566/681/fanarts/medium/b7a4f2d4cf.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/566/681/posters/medium/9d643346b1.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/566/681/cleararts/medium/c8c04aef46.png.webp"
+        ]
+      },
+      "rating": 6.881208419799805,
+      "status": "released",
+      "country": "us",
+      "runtime": 122,
+      "tagline": "Defy the odds",
+      "trailer": "https://youtube.com/watch?v=LOHrNvFH3F8",
+      "homepage": "https://www.netflix.com/title/81416533",
+      "language": "en",
+      "overview": "An intelligence operative for a shadowy global peacekeeping agency races to stop a hacker from stealing its most valuable — and dangerous — weapon.",
+      "released": "2023-08-11",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "secret-agent",
+        "spy",
+        "undercover",
+        "espionage",
+        "female-protagonist",
+        "saving-the-world"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "Heart_of_Stone_(2023_film)"
+      },
+      "updated_at": "2026-08-28T17:36:57.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 74,
+      "during_credits": false,
+      "original_title": "Heart of Stone",
+      "available_translations": [
+        "ar",
+        "bg",
+        "cs",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ko",
+        "lt",
+        "my",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319838037,
+    "watched_at": "2023-09-03T17:54:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt2906216",
+        "plex": {
+          "guid": "5d776f15f617c90020198be4",
+          "slug": "dungeons-and-dragons-honor-among-thieves"
+        },
+        "slug": "dungeons-dragons-honor-among-thieves-2023",
+        "tmdb": 493529,
+        "trakt": 340442
+      },
+      "year": 2023,
+      "title": "Dungeons & Dragons: Honor Among Thieves",
+      "votes": 27520,
+      "colors": {
+        "poster": [
+          "#B3847F",
+          "#391E22"
+        ]
+      },
+      "genres": [
+        "fantasy",
+        "adventure",
+        "comedy"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/340/442/logos/medium/0207950d48.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/340/442/thumbs/medium/69598f46be.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/340/442/banners/medium/086efc9067.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/340/442/fanarts/medium/4a0ae356d7.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/340/442/posters/medium/77cf4863b5.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/340/442/cleararts/medium/308d57f646.png.webp"
+        ]
+      },
+      "rating": 7.670567035675049,
+      "status": "released",
+      "country": "us",
+      "runtime": 134,
+      "tagline": "No experience necessary.",
+      "trailer": "https://youtube.com/watch?v=9LLOLEBlVIA",
+      "homepage": "https://www.paramountmovies.com/movies/dungeons-dragons-honor-among-thieves",
+      "language": "en",
+      "overview": "A charming thief and a band of unlikely adventurers undertake an epic heist to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people.",
+      "released": "2023-03-31",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "dragon",
+        "wizard",
+        "friends",
+        "father-daughter-relationship",
+        "video-game",
+        "female-villain"
+      ],
+      "social_ids": {
+        "twitter": "DnDMovie",
+        "facebook": "DungeonsandDragonsMovie",
+        "instagram": "dungeonsanddragonsmovie",
+        "wikipedia": "Dungeons_&_Dragons:_Honor_Among_Thieves"
+      },
+      "updated_at": "2026-08-28T17:21:26.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 161,
+      "during_credits": true,
+      "original_title": "Dungeons & Dragons: Honor Among Thieves",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "my",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319839813,
+    "watched_at": "2023-06-18T18:54:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt12758060",
+        "plex": {
+          "guid": "5f19e61b4de80e00423e5fde",
+          "slug": "tetris"
+        },
+        "slug": "tetris-2023",
+        "tmdb": 726759,
+        "trakt": 569001
+      },
+      "year": 2023,
+      "title": "Tetris",
+      "votes": 11008,
+      "colors": {
+        "poster": [
+          "#E7E5D5",
+          "#4E3528"
+        ]
+      },
+      "genres": [
+        "history",
+        "drama",
+        "thriller"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/569/001/logos/medium/6ae5918586.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/569/001/thumbs/medium/c4d06b04b3.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/569/001/banners/medium/4c96b14f4d.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/569/001/fanarts/medium/a30f61fb32.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/569/001/posters/medium/ef1d8d4a87.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/569/001/cleararts/medium/10dcdbc6e5.png.webp"
+        ]
+      },
+      "rating": 7.934048175811768,
+      "status": "released",
+      "country": "gb",
+      "runtime": 118,
+      "tagline": "The game you couldn't put down. The story you couldn't make up.",
+      "trailer": "https://youtube.com/watch?v=-BLM1naCfME",
+      "homepage": "https://tv.apple.com/movie/umc.cmc.4evmgcam356pzgxs2l7a18d7b",
+      "language": "en",
+      "overview": "In 1988, American video game salesman Henk Rogers discovers the video game Tetris. When he sets out to bring the game to the world, he enters a dangerous web of lies and corruption behind the Iron Curtain.",
+      "released": "2023-03-31",
+      "languages": [
+        "en",
+        "hu",
+        "ja",
+        "ru"
+      ],
+      "subgenres": [
+        "1980s",
+        "video-game",
+        "cold-war"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "Tetris_(film)"
+      },
+      "updated_at": "2026-08-28T17:32:34.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 77,
+      "during_credits": true,
+      "original_title": "Tetris",
+      "available_translations": [
+        "ar",
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "lt",
+        "my",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319489443,
+    "watched_at": "2022-12-16T00:00:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt1630029",
+        "plex": {
+          "guid": "5d7768ba96b655001fdc0408",
+          "slug": "avatar-the-way-of-water"
+        },
+        "slug": "avatar-the-way-of-water-2022",
+        "tmdb": 76600,
+        "trakt": 56580
+      },
+      "year": 2022,
+      "title": "Avatar: The Way of Water",
+      "votes": 42552,
+      "colors": {
+        "poster": [
+          "#A39E8F",
+          "#242436"
+        ]
+      },
+      "genres": [
+        "action",
+        "adventure",
+        "science-fiction"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/056/580/logos/medium/49818791f0.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/056/580/thumbs/medium/79e5d3f7a9.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/056/580/banners/medium/f0985239fc.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/056/580/fanarts/medium/aee48e9459.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/056/580/posters/medium/ef9d678e06.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/056/580/cleararts/medium/6b0b81689d.png.webp"
+        ]
+      },
+      "rating": 7.982256889343262,
+      "status": "released",
+      "country": "us",
+      "runtime": 192,
+      "tagline": "Return to Pandora.",
+      "trailer": "https://youtube.com/watch?v=o5F8MOz_IDw",
+      "homepage": "https://www.avatar.com/movies/avatar-the-way-of-water",
+      "language": "en",
+      "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+      "released": "2022-12-16",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "dysfunctional-family",
+        "loss-of-loved-one",
+        "alien-life-form"
+      ],
+      "social_ids": {
+        "twitter": "officialavatar",
+        "facebook": "Avatar",
+        "instagram": "avatar",
+        "wikipedia": "Avatar:_The_Way_of_Water"
+      },
+      "updated_at": "2026-08-29T08:29:11.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 269,
+      "during_credits": false,
+      "original_title": "Avatar: The Way of Water",
+      "available_translations": [
+        "ar",
+        "az",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "hy",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "kk",
+        "ko",
+        "lt",
+        "lv",
+        "my",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319665314,
+    "watched_at": "2022-05-27T00:00:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt1745960",
+        "plex": {
+          "guid": "5d776be17a53e9001e732ab9",
+          "slug": "top-gun-maverick"
+        },
+        "slug": "top-gun-maverick-2022",
+        "tmdb": 361743,
+        "trakt": 297485
+      },
+      "year": 2022,
+      "title": "Top Gun: Maverick",
+      "votes": 42968,
+      "colors": {
+        "poster": [
+          "#CEB97E",
+          "#3C2D20"
+        ]
+      },
+      "genres": [
+        "action",
+        "drama"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/297/485/logos/medium/b377c45db4.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/297/485/thumbs/medium/4115f12d54.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/297/485/banners/medium/5bcaf29ea9.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/297/485/fanarts/medium/a95b3278d0.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/297/485/posters/medium/6e3d1206ea.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/297/485/cleararts/medium/c73b3bfbb8.png.webp"
+        ]
+      },
+      "rating": 8.411096572875977,
+      "status": "released",
+      "country": "us",
+      "runtime": 131,
+      "tagline": "Feel the need... The need for speed.",
+      "trailer": "https://youtube.com/watch?v=Klc__shdj88",
+      "homepage": "https://www.topgunmovie.com",
+      "language": "en",
+      "overview": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+      "released": "2022-05-27",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "military"
+      ],
+      "social_ids": {
+        "twitter": "TopGunMovie",
+        "facebook": "TopGunMovie",
+        "instagram": "topgunmovie",
+        "wikipedia": "Top_Gun:_Maverick"
+      },
+      "updated_at": "2026-08-28T17:19:24.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 238,
+      "during_credits": false,
+      "original_title": "Top Gun: Maverick",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "my",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320183662,
+    "watched_at": "2021-12-29T17:51:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt11286314",
+        "plex": {
+          "guid": "5e1622597d3bc8003d780366",
+          "slug": "dont-look-up-2021"
+        },
+        "slug": "don-t-look-up-2021",
+        "tmdb": 646380,
+        "trakt": 483617
+      },
+      "year": 2021,
+      "title": "Don't Look Up",
+      "votes": 36140,
+      "colors": {
+        "poster": [
+          "#F7F0E2",
+          "#804E38"
+        ]
+      },
+      "genres": [
+        "comedy",
+        "science-fiction",
+        "drama"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/483/617/logos/medium/ba27509789.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/483/617/thumbs/medium/22458bf132.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/483/617/banners/medium/2bc47b0022.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/483/617/fanarts/medium/3bb9054c21.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/483/617/posters/medium/f6e497e9c7.jpg.webp"
+        ],
+        "clearart": []
+      },
+      "rating": 7.2768402099609375,
+      "status": "released",
+      "country": "us",
+      "runtime": 138,
+      "tagline": "Based on truly possible events.",
+      "trailer": "https://youtube.com/watch?v=RbIxYm3mKzI",
+      "homepage": "https://www.netflix.com/title/81252357",
+      "language": "en",
+      "overview": "Two astronomers go on a media tour to warn humankind of a planet-killing comet hurtling toward Earth. The response from a distracted world: Meh.",
+      "released": "2021-12-10",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "satire",
+        "artificial-intelligence-a-i",
+        "disaster",
+        "end-of-the-world",
+        "tragic"
+      ],
+      "social_ids": {
+        "twitter": "dontlookupfilm",
+        "facebook": null,
+        "instagram": "dontlookupfilm",
+        "wikipedia": "Don't_Look_Up"
+      },
+      "updated_at": "2026-08-29T08:11:41.000Z",
+      "after_credits": true,
+      "certification": "R",
+      "comment_count": 233,
+      "during_credits": true,
+      "original_title": "Don't Look Up",
+      "available_translations": [
+        "ar",
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "ms",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "so",
+        "sr",
+        "sv",
+        "th",
+        "tl",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320550420,
+    "watched_at": "2021-11-11T14:18:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt1160419",
+        "plex": {
+          "guid": "5d776cac47dd6e001f6ee059",
+          "slug": "dune-part-one"
+        },
+        "slug": "dune-2021",
+        "tmdb": 438631,
+        "trakt": 287071
+      },
+      "year": 2021,
+      "title": "Dune",
+      "votes": 63861,
+      "colors": {
+        "poster": [
+          "#AA9172",
+          "#383028"
+        ]
+      },
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/287/071/logos/medium/d70f600678.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/287/071/thumbs/medium/c896f44850.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/287/071/banners/medium/202a7fa244.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/287/071/fanarts/medium/4257cce705.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/287/071/posters/medium/ac59f28ad6.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/287/071/cleararts/medium/549f72963a.png.webp"
+        ]
+      },
+      "rating": 8.169931411743164,
+      "status": "released",
+      "country": "us",
+      "runtime": 155,
+      "tagline": "It begins.",
+      "trailer": "https://youtube.com/watch?v=w0HgHet0sxg",
+      "homepage": "https://www.warnerbros.com/movies/dune",
+      "language": "en",
+      "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence - a commodity capable of unlocking humanity's greatest potential - only those who can conquer their fear will survive.",
+      "released": "2021-10-21",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "betrayal",
+        "dystopia",
+        "future",
+        "revenge",
+        "desert",
+        "creature",
+        "space",
+        "space-opera",
+        "army"
+      ],
+      "social_ids": {
+        "twitter": "dunemovie",
+        "facebook": "dune",
+        "instagram": "dunemovie",
+        "wikipedia": "Dune_(2021_film)"
+      },
+      "updated_at": "2026-08-29T08:18:47.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 356,
+      "during_credits": false,
+      "original_title": "Dune",
+      "available_translations": [
+        "ar",
+        "az",
+        "ba",
+        "be",
+        "bg",
+        "bn",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "hy",
+        "id",
+        "is",
+        "it",
+        "ja",
+        "ka",
+        "kk",
+        "km",
+        "ko",
+        "ku",
+        "lb",
+        "lo",
+        "lt",
+        "lv",
+        "mk",
+        "mn",
+        "nl",
+        "no",
+        "pa",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "so",
+        "sq",
+        "sr",
+        "sv",
+        "ta",
+        "te",
+        "th",
+        "tr",
+        "tt",
+        "uk",
+        "ur",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320177032,
+    "watched_at": "2021-01-08T12:49:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt6723592",
+        "plex": {
+          "guid": "5d7770c2594b2b001e75121a",
+          "slug": "tenet"
+        },
+        "slug": "tenet-2020",
+        "tmdb": 577922,
+        "trakt": 427989
+      },
+      "year": 2020,
+      "title": "Tenet",
+      "votes": 38350,
+      "colors": {
+        "poster": [
+          "#8FA2B1",
+          "#272C34"
+        ]
+      },
+      "genres": [
+        "action",
+        "thriller",
+        "science-fiction"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/427/989/logos/medium/5460556321.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/427/989/thumbs/medium/f57e49d282.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/427/989/banners/medium/8e7775e254.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/427/989/fanarts/medium/027f3f82d3.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/427/989/posters/medium/f002269e00.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/427/989/cleararts/medium/936e0bb71d.png.webp"
+        ]
+      },
+      "rating": 7.506727695465088,
+      "status": "released",
+      "country": "us",
+      "runtime": 150,
+      "tagline": "Time runs out.",
+      "trailer": "https://youtube.com/watch?v=KJP5RunZUKk",
+      "homepage": "https://www.tenetfilm.com/",
+      "language": "en",
+      "overview": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+      "released": "2020-09-03",
+      "languages": [
+        "en",
+        "et",
+        "ru",
+        "uk"
+      ],
+      "subgenres": [
+        "assassin",
+        "spy",
+        "terrorism",
+        "time-travel",
+        "espionage"
+      ],
+      "social_ids": {
+        "twitter": "TENETFilm",
+        "facebook": "tenetfilm",
+        "instagram": "tenetfilm",
+        "wikipedia": "Tenet_(film)"
+      },
+      "updated_at": "2026-08-29T08:20:34.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 314,
+      "during_credits": false,
+      "original_title": "Tenet",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "my",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320193615,
+    "watched_at": "2020-01-11T12:53:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt7131622",
+        "plex": {
+          "guid": "5d776d3c96b655001fe436e4",
+          "slug": "once-upon-a-time-in-hollywood"
+        },
+        "slug": "once-upon-a-time-in-hollywood-2019",
+        "tmdb": 466272,
+        "trakt": 313464
+      },
+      "year": 2019,
+      "title": "Once Upon a Time... in Hollywood",
+      "votes": 35288,
+      "colors": {
+        "poster": [
+          "#F0E1D1",
+          "#8F4B33"
+        ]
+      },
+      "genres": [
+        "drama",
+        "comedy",
+        "thriller"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/313/464/logos/medium/51e4cd2d3c.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/313/464/thumbs/medium/ddc6cd13e7.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/313/464/banners/medium/02af31b169.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/313/464/fanarts/medium/08cfb4a96d.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/313/464/posters/medium/9b6220414b.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/313/464/cleararts/medium/fa3e331389.png.webp"
+        ]
+      },
+      "rating": 7.44459867477417,
+      "status": "released",
+      "country": "us",
+      "runtime": 162,
+      "tagline": "In this town, it can all change… Like that.",
+      "trailer": "https://youtube.com/watch?v=vKgITiP1UMg",
+      "homepage": "https://www.sonypictures.com/movies/onceuponatimeinhollywood",
+      "language": "en",
+      "overview": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
+      "released": "2019-07-26",
+      "languages": [
+        "en",
+        "it",
+        "es"
+      ],
+      "subgenres": [
+        "historical-fiction",
+        "period-drama",
+        "nostalgic",
+        "male-friendship",
+        "1960s",
+        "cult",
+        "filmmaking",
+        "movie-business",
+        "celebrity"
+      ],
+      "social_ids": {
+        "twitter": "OnceInHollywood",
+        "facebook": "OnceInHollywood",
+        "instagram": "onceinhollywood",
+        "wikipedia": "Once_Upon_a_Time_in_Hollywood"
+      },
+      "updated_at": "2026-08-29T08:23:57.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 195,
+      "during_credits": true,
+      "original_title": "Once Upon a Time... in Hollywood",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "my",
+        "nb",
+        "nl",
+        "nn",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sq",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320178939,
+    "watched_at": "2019-12-06T17:50:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt1302006",
+        "plex": {
+          "guid": "5d776c4351dd69001fe397da",
+          "slug": "the-irishman-2019"
+        },
+        "slug": "the-irishman-2019",
+        "tmdb": 398978,
+        "trakt": 242125
+      },
+      "year": 2019,
+      "title": "The Irishman",
+      "votes": 18849,
+      "colors": {
+        "poster": [
+          "#9A7D83",
+          "#282E35"
+        ]
+      },
+      "genres": [
+        "crime",
+        "history",
+        "drama"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/242/125/logos/medium/012a34e44b.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/242/125/thumbs/medium/6fad11679b.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/242/125/banners/medium/150f86c7fb.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/242/125/fanarts/medium/f76dc194ba.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/242/125/posters/medium/ad5e44dd68.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/242/125/cleararts/medium/94f3a7b2d0.png.webp"
+        ]
+      },
+      "rating": 7.701575756072998,
+      "status": "released",
+      "country": "us",
+      "runtime": 209,
+      "tagline": "His story changed history.",
+      "trailer": "https://youtube.com/watch?v=RS3aHkkfuEI",
+      "homepage": "https://www.theirishman-movie.com",
+      "language": "en",
+      "overview": "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years.",
+      "released": "2019-11-01",
+      "languages": [
+        "en",
+        "it",
+        "la",
+        "es"
+      ],
+      "subgenres": [
+        "gangster",
+        "hitman",
+        "murder",
+        "organized-crime",
+        "family-relationships",
+        "male-friendship",
+        "1970s",
+        "mafia",
+        "1960s",
+        "1950s",
+        "father-daughter-relationship",
+        "religion"
+      ],
+      "social_ids": {
+        "twitter": "TheIrishmanFilm",
+        "facebook": "TheIrishmanFilm",
+        "instagram": "theirishmanfilm",
+        "wikipedia": "The_Irishman"
+      },
+      "updated_at": "2026-08-29T08:20:44.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 103,
+      "during_credits": false,
+      "original_title": "The Irishman",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319847037,
+    "watched_at": "2019-10-12T12:58:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt7286456",
+        "plex": {
+          "guid": "5d776f3c96b655001fe80905",
+          "slug": "joker-2019"
+        },
+        "slug": "joker-2019",
+        "tmdb": 475557,
+        "trakt": 322988
+      },
+      "year": 2019,
+      "title": "Joker",
+      "votes": 64000,
+      "colors": {
+        "poster": [
+          "#BEBA9F",
+          "#3D2A1B"
+        ]
+      },
+      "genres": [
+        "crime",
+        "thriller",
+        "drama"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/322/988/logos/medium/b31ea4ecfc.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/322/988/thumbs/medium/f4f584d533.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/322/988/banners/medium/32c334741e.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/322/988/fanarts/medium/4bfb3ea1b6.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/322/988/posters/medium/b2fa5f3d6c.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/322/988/cleararts/medium/f7fca702ca.png.webp"
+        ]
+      },
+      "rating": 8.33092212677002,
+      "status": "released",
+      "country": "us",
+      "runtime": 122,
+      "tagline": "Put on a happy face.",
+      "trailer": "https://youtube.com/watch?v=-RFFRxcoKfA",
+      "homepage": "https://www.jokermovie.net/",
+      "language": "en",
+      "overview": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+      "released": "2019-10-04",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "1980s",
+        "psychological-thriller",
+        "society",
+        "mental-illness",
+        "based-on-comic"
+      ],
+      "social_ids": {
+        "twitter": "jokermovie",
+        "facebook": "jokermovie",
+        "instagram": "jokermovie",
+        "wikipedia": "Joker_(2019_film)"
+      },
+      "updated_at": "2026-08-28T17:20:43.000Z",
+      "after_credits": false,
+      "certification": "R",
+      "comment_count": 309,
+      "during_credits": false,
+      "original_title": "Joker",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "kk",
+        "ko",
+        "lt",
+        "lv",
+        "nb",
+        "nl",
+        "nn",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319488929,
+    "watched_at": "2019-06-06T18:32:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt0499549",
+        "plex": {
+          "guid": "5d776d057a53e9001e74ed5d",
+          "slug": "avatar"
+        },
+        "slug": "avatar-2009",
+        "tmdb": 19995,
+        "trakt": 12269
+      },
+      "year": 2009,
+      "title": "Avatar",
+      "votes": 56852,
+      "colors": {
+        "poster": [
+          "#137AAC",
+          "#051D3B"
+        ]
+      },
+      "genres": [
+        "action",
+        "adventure",
+        "science-fiction"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/012/269/logos/medium/525491d5fe.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/012/269/thumbs/medium/d7a132b9d5.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/012/269/banners/medium/fe1ea9ab0c.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/012/269/fanarts/medium/8f7a1b3f8d.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/012/269/posters/medium/12c85d38cd.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/012/269/cleararts/medium/9e6bb0d8d0.png.webp"
+        ]
+      },
+      "rating": 8.032998085021973,
+      "status": "released",
+      "country": "us",
+      "runtime": 162,
+      "tagline": "Enter the world of Pandora.",
+      "trailer": "https://youtube.com/watch?v=jm2sNLIPPvA",
+      "homepage": "https://www.avatar.com/movies/avatar",
+      "language": "en",
+      "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+      "released": "2009-12-18",
+      "languages": [
+        "en",
+        "es"
+      ],
+      "subgenres": [
+        "battle",
+        "nature",
+        "scientist",
+        "space-travel"
+      ],
+      "social_ids": {
+        "twitter": "officialavatar",
+        "facebook": "Avatar",
+        "instagram": "avatar",
+        "wikipedia": "Avatar_(2009_film)"
+      },
+      "updated_at": "2026-08-29T08:27:04.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 205,
+      "during_credits": false,
+      "original_title": "Avatar",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "kk",
+        "ko",
+        "lt",
+        "lv",
+        "ml",
+        "my",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "so",
+        "sr",
+        "sv",
+        "ta",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14320175633,
+    "watched_at": "2017-11-04T12:48:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt5013056",
+        "plex": {
+          "guid": "5d776c0623d5a3001f516b20",
+          "slug": "dunkirk"
+        },
+        "slug": "dunkirk-2017",
+        "tmdb": 374720,
+        "trakt": 224641
+      },
+      "year": 2017,
+      "title": "Dunkirk",
+      "votes": 30663,
+      "colors": {
+        "poster": [
+          "#8EB1C6",
+          "#0B1920"
+        ]
+      },
+      "genres": [
+        "war",
+        "action",
+        "drama"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/224/641/logos/medium/effc07d777.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/224/641/thumbs/medium/01e375edd7.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/224/641/banners/medium/ca1d320fe9.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/224/641/fanarts/medium/c3faf34969.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/224/641/posters/medium/a28711b090.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/224/641/cleararts/medium/ef0b956512.png.webp"
+        ]
+      },
+      "rating": 7.661252975463867,
+      "status": "released",
+      "country": "us",
+      "runtime": 107,
+      "tagline": "When 400,000 men couldn't get home, home came for them.",
+      "trailer": "https://youtube.com/watch?v=T7O7BtBnsG4",
+      "homepage": "https://www.dunkirkmovie.com/",
+      "language": "en",
+      "overview": "The story of the miraculous evacuation of Allied soldiers from Belgium, Britain, Canada and France, who were cut off and surrounded by the German army from the beaches and harbour of Dunkirk between May 26th and June 4th 1940 during World War II.",
+      "released": "2017-07-19",
+      "languages": [
+        "en",
+        "fr",
+        "de"
+      ],
+      "subgenres": [
+        "historical-fiction",
+        "intense",
+        "military",
+        "period-drama",
+        "soldier",
+        "survival",
+        "world-war-ii",
+        "1940s",
+        "beach",
+        "army",
+        "british-army",
+        "pilot"
+      ],
+      "social_ids": {
+        "twitter": "dunkirkmovie",
+        "facebook": "Dunkirkmovie",
+        "instagram": "dunkirkmovie",
+        "wikipedia": "Dunkirk_(2017_film)"
+      },
+      "updated_at": "2026-08-28T17:15:42.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 120,
+      "during_credits": false,
+      "original_title": "Dunkirk",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nb",
+        "nl",
+        "nn",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ]
+    }
+  },
+  {
+    "id": 14319449441,
+    "watched_at": "2016-12-21T00:00:00.000Z",
+    "action": "watch",
+    "type": "movie",
+    "movie": {
+      "ids": {
+        "imdb": "tt1355644",
+        "plex": {
+          "guid": "5d776ae923d5a3001f50a730",
+          "slug": "passengers"
+        },
+        "slug": "passengers-2016",
+        "tmdb": 274870,
+        "trakt": 172700
+      },
+      "year": 2016,
+      "title": "Passengers",
+      "votes": 31196,
+      "colors": {
+        "poster": [
+          "#E6D9D1",
+          "#866453"
+        ]
+      },
+      "genres": [
+        "science-fiction",
+        "romance",
+        "drama"
+      ],
+      "images": {
+        "logo": [
+          "media.trakt.tv/images/movies/000/172/700/logos/medium/254500ebe5.png.webp"
+        ],
+        "thumb": [
+          "media.trakt.tv/images/movies/000/172/700/thumbs/medium/5a24bf04b9.jpg.webp"
+        ],
+        "banner": [
+          "media.trakt.tv/images/movies/000/172/700/banners/medium/ca5a2a18ca.jpg.webp"
+        ],
+        "fanart": [
+          "media.trakt.tv/images/movies/000/172/700/fanarts/medium/c585029f5b.jpg.webp"
+        ],
+        "poster": [
+          "media.trakt.tv/images/movies/000/172/700/posters/medium/60063c7db3.jpg.webp"
+        ],
+        "clearart": [
+          "media.trakt.tv/images/movies/000/172/700/cleararts/medium/ccfa972ac5.png.webp"
+        ]
+      },
+      "rating": 7.29032564163208,
+      "status": "released",
+      "country": "us",
+      "runtime": 116,
+      "tagline": "There is a reason they woke up.",
+      "trailer": "https://youtube.com/watch?v=sipflRaq2vg",
+      "homepage": "https://www.passengersmovie.com/",
+      "language": "en",
+      "overview": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
+      "released": "2016-12-21",
+      "languages": [
+        "en"
+      ],
+      "subgenres": [
+        "robot",
+        "lying",
+        "android",
+        "space",
+        "spacecraft",
+        "isolation"
+      ],
+      "social_ids": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "wikipedia": "Passengers_(2016_film)"
+      },
+      "updated_at": "2026-08-28T17:14:46.000Z",
+      "after_credits": false,
+      "certification": "PG-13",
+      "comment_count": 178,
+      "during_credits": false,
+      "original_title": "Passengers",
+      "available_translations": [
+        "ar",
+        "bg",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fa",
+        "fi",
+        "fr",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "it",
+        "ja",
+        "ka",
+        "ko",
+        "lt",
+        "lv",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "uz",
+        "vi",
+        "zh"
+      ]
+    }
+  }
+]

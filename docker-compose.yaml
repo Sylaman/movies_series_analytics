@@ -1,13 +1,17 @@
 x-airflow-common:
   &airflow-common
 
-  image: apache/airflow:3.3.0
+  build: .
+  image: custom-airflow:3.3.0
 
   environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres-airflow:5432/airflow
       AIRFLOW__CORE__AUTH_MANAGER: airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__API__TEST_CONNECTION: "Enabled"
+      AIRFLOW__CORE__TEST_CONNECTION: "Enabled"
+      AIRFLOW__CORE__FERNET_KEY: "FO6s6E7Nu87QIpQuucVsj-3K6Fwzs6OYplTkydx9pxM="
 
   volumes:
     - ./dags:/opt/airflow/dags
