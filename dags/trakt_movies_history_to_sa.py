@@ -12,11 +12,11 @@ import tmdbsimple as tmdb
 
 
 
-def fetch_and_load_movies_watch_history(endpoint, target_table, target_field):
+def fetch_and_load_data_from_trakt(endpoint, target_table, target_field):
 
-    CLIENT_ID = Variable.get("track_client_id")
-    USERNAME = Variable.get("track_username")
-    SECRET = Variable.get("track_secret")
+    CLIENT_ID = Variable.get('trakt_client_id')
+    USERNAME = Variable.get('trakt_username')
+    SECRET = Variable.get('trakt_secret')
 
     headers = {
         "Content-Type": "application/json",
@@ -24,7 +24,7 @@ def fetch_and_load_movies_watch_history(endpoint, target_table, target_field):
         "trakt-api-key": CLIENT_ID,
     }
 
-    # Запрашиваем историю просмотров с сервиса Track.TV
+    # Отправляем запрос по API для получения данных
     url = f"https://api.trakt.tv/users/{USERNAME}/{endpoint}"
     response = requests.get(url, headers=headers)
 
@@ -75,30 +75,45 @@ with DAG(
         sql = 'TRUNCATE sa.raw_trakt_movies_history, sa.raw_trakt_movies_ratings, sa.raw_trakt_episodes_history, sa.raw_trakt_episodes_ratings'
     )
 
-    load_movies_watch_history = PythonOperator(
-        task_id = 'load_movies_watch_history_to_SA',
-        python_callable = fetch_and_load_movies_watch_history,
+    load_movies_history = PythonOperator(
+        task_id = 'load_movies_history_to_SA',
+        python_callable = fetch_and_load_data_from_trakt,
         op_kwargs = {
             'endpoint': 'history/movies?extended=full',
-            'target_table': 'sa.raw_trakt_watch_history',
-            'target_field': 'trakt_history_json',
+            'target_table': 'sa.raw_trakt_movies_history',
+            'target_field': 'trakt_movies_history_json',
         },
     )
 
     load_movies_ratings = PythonOperator(
         task_id = 'load_movies_rating_to_SA',
-        python_callable = fetch_and_load_movies_watch_history,
+        python_callable = fetch_and_load_data_from_trakt,
         op_kwargs = {
             'endpoint': 'ratings/movies',
-            'target_table': 'sa.raw_trakt_ratings',
-            'target_field': 'trakt_ratings_json',
+            'target_table': 'sa.raw_trakt_movies_ratings',
+            'target_field': 'trakt_movies_ratings_json',
+        },
+    )
+
+    load_episodes_history = PythonOperator(
+        task_id = 'load_episodes_history_to_SA',
+        python_callable = fetch_and_load_data_from_trakt,
+        op_kwargs = {
+            'endpoint': 'history/shows?extended=full',
+            'target_table': 'sa.raw_trakt_episodes_history',
+            'target_field': 'trakt_episodes_history_json',
+        },
+    )
+
+    load_episodes_ratings = PythonOperator(
+        task_id = 'load_episodes_ratings_to_SA',
+        python_callable = fetch_and_load_data_from_trakt,
+        op_kwargs = {
+            'endpoint': 'ratings/episodes',
+            'target_table': 'sa.raw_trakt_episodes_ratings',
+            'target_field': 'trakt_episodes_ratings_json',
         },
     )
 
 
-    truncate_sa_tables >> load_movies_watch_history >> load_movies_ratings
-
-
-
-# url = f"https://api.trakt.tv/users/{USERNAME}/history/shows?extended=full"
-# url = f"https://api.trakt.tv/users/{USERNAME}/ratings/episodes"
+    truncate_sa_tables >> [load_movies_history, load_movies_ratings, load_episodes_history, load_episodes_ratings]
