@@ -32,3 +32,15 @@ SELECT
 	, (trakt_movies_history_json->'movie'->'images'->'poster'->> 0)::varchar AS poster
 	, (trakt_movies_history_json->'movie'->>'updated_at')::timestamp AS updated_at
 FROM sa.raw_trakt_movies_history;
+
+
+INSERT INTO ods.trakt_movies_ratings (
+	trakt_id
+	, rating
+	, rated_date
+)
+SELECT 
+	(trakt_movies_ratings_json->'movie'->'ids'->>'trakt')::varchar AS trakt_id
+	, (trakt_movies_ratings_json->>'rating')::numeric(3,1) AS rating
+	, (trakt_movies_ratings_json->>'rated_at')::date AS rated_date
+FROM sa.raw_trakt_movies_ratings;
