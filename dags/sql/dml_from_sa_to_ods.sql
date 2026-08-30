@@ -34,6 +34,7 @@ SELECT
 FROM sa.raw_trakt_movies_history;
 
 
+
 INSERT INTO ods.trakt_movies_ratings (
 	trakt_id
 	, rating
@@ -44,3 +45,33 @@ SELECT
 	, (trakt_movies_ratings_json->>'rating')::numeric(3,1) AS rating
 	, (trakt_movies_ratings_json->>'rated_at')::date AS rated_date
 FROM sa.raw_trakt_movies_ratings;
+
+
+
+
+SELECT 
+	(trakt_episodes_history_json->>'id')::varchar AS watch_id
+	, trakt_episodes_history_json->'episode'->>'title' AS episode_title
+	, trakt_episodes_history_json->'show'->>'title' AS show_title
+	, (trakt_episodes_history_json->'episode'->>'released')::date AS release_date
+	, (trakt_episodes_history_json->>'watched_at')::timestamp AS watched_at
+	, trakt_episodes_history_json->>'type' AS media_type
+	, (trakt_episodes_history_json->'episode'->>'season')::int AS season_number
+    , (trakt_episodes_history_json->'episode'->>'number')::int AS episode_number
+    , (trakt_episodes_history_json->'episode'->>'runtime')::int AS runtime
+    , (trakt_episodes_history_json->'show'->>'total_runtime')::int AS show_total_runtime
+    , trakt_episodes_history_json->'show'->>'country' AS country
+    , ARRAY(SELECT jsonb_array_elements_text(trakt_episodes_history_json->'show'->'genres')) AS genres
+	, ARRAY(SELECT jsonb_array_elements_text(trakt_episodes_history_json->'show'->'subgenres')) AS subgenres
+	, (trakt_episodes_history_json->'episode'->'ids'->>'trakt')::varchar AS trakt_episode_id
+	, (trakt_episodes_history_json->'episode'->'ids'->>'imdb')::varchar AS imdb_episode_id
+    , (trakt_episodes_history_json->'episode'->'ids'->>'tmdb')::varchar AS tmdb_episode_id
+    , (trakt_episodes_history_json->'show'->'ids'->>'trakt')::varchar AS trakt_show_id
+	, (trakt_episodes_history_json->'show'->'ids'->>'imdb')::varchar AS imdb_show_id
+    , (trakt_episodes_history_json->'show'->'ids'->>'tmdb')::varchar AS tmdb_show_id
+    , (trakt_episodes_history_json->'show'->>'status')::varchar AS show_status
+    , (trakt_episodes_history_json->'show'->'images'->'poster'->> 0)::varchar AS poster
+    , (trakt_episodes_history_json->'episode'->>'updated_at')::timestamp AS episode_updated_at
+	, (trakt_episodes_history_json->'show'->>'updated_at')::timestamp AS show_updated_at
+	, trakt_episodes_history_json->'show'->>'certification' AS certification
+FROM sa.raw_trakt_episodes_history;
