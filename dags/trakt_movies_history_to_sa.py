@@ -125,7 +125,7 @@ with DAG(
     truncate_ods_tables = SQLExecuteQueryOperator (
         task_id = 'truncate_ods_tables',
         conn_id = 'postgres_dwh',
-        sql = 'TRUNCATE ods.trakt_movies_history, ods.trakt_movies_ratings'
+        sql = 'TRUNCATE ods.trakt_movies_history, ods.trakt_movies_ratings, ods.trakt_episodes_history'
     )
 
     load_trakt_data_from_sa_to_ods = SQLExecuteQueryOperator (

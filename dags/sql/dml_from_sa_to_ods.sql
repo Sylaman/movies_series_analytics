@@ -48,7 +48,32 @@ FROM sa.raw_trakt_movies_ratings;
 
 
 
-
+INSERT INTO ods.trakt_episodes_history (
+	watch_id
+	, episode_title
+	, show_title
+	, release_date
+	, watched_at
+	, media_type
+	, season_number
+	, episode_number
+	, runtime
+	, show_total_runtime
+	, country
+	, genres
+	, subgenres
+	, trakt_episode_id
+	, imdb_episode_id
+	, tmdb_episode_id
+	, trakt_show_id
+	, imdb_show_id
+	, tmdb_show_id
+	, show_status
+	, poster
+	, episode_updated_at
+	, show_updated_at
+	, certification
+)
 SELECT 
 	(trakt_episodes_history_json->>'id')::varchar AS watch_id
 	, trakt_episodes_history_json->'episode'->>'title' AS episode_title
