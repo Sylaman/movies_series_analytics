@@ -11,7 +11,6 @@ import requests
 import tmdbsimple as tmdb
 
 
-
 def fetch_and_load_data_from_trakt(endpoint, target_table, target_field):
     CLIENT_ID = Variable.get('trakt_client_id')
     USERNAME = Variable.get('trakt_username')
@@ -26,11 +25,11 @@ def fetch_and_load_data_from_trakt(endpoint, target_table, target_field):
     pg_hook = PostgresHook(postgres_conn_id='postgres_dwh')
     
     page = 1
-    limit = 100  # Максимальный размер страницы, который обычно поддерживает Trakt
+    limit = 100  # Максимальный размер страницы, который поддерживает Trakt
     total_loaded = 0
 
     while True:
-        # Корректно формируем URL с учетом того, есть ли уже параметры (например, ?extended=full)
+        # Корректно формируем URL с учетом того, есть ли уже параметры
         separator = '&' if '?' in endpoint else '?'
         paged_url = f'https://api.trakt.tv/users/{USERNAME}/{endpoint}{separator}page={page}&limit={limit}'
         
@@ -123,5 +122,17 @@ with DAG(
         },
     )
 
+    truncate_ods_tables = SQLExecuteQueryOperator (
+        task_id = 'truncate_ods_tables',
+        conn_id = 'postgres_dwh',
+        sql = 'TRUNCATE ods.trakt_movies_history'
+    )
 
-    truncate_sa_tables >> [load_movies_history, load_movies_ratings, load_episodes_history, load_episodes_ratings]
+    load_trakt_data_from_sa_to_ods = SQLExecuteQueryOperator (
+        task_id = 'load_trakt_data_from_sa_to_ods',
+        conn_id = 'postgres_dwh',
+        sql = 'sql/dml_from_sa_to_ods.sql'
+    )
+
+
+    truncate_sa_tables >> [load_movies_history, load_movies_ratings, load_episodes_history, load_episodes_ratings] >> truncate_ods_tables >> load_trakt_data_from_sa_to_ods
