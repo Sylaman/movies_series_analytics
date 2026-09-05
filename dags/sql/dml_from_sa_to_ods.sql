@@ -24,7 +24,7 @@ SELECT
 	, trakt_movies_history_json->'movie'->>'country' AS country
 	, ARRAY(SELECT jsonb_array_elements_text(trakt_movies_history_json->'movie'->'genres')) AS genres
 	, ARRAY(SELECT jsonb_array_elements_text(trakt_movies_history_json->'movie'->'subgenres')) AS subgenres
-	, trakt_movies_history_json->'movie'->>'certification' AS certification
+	, COALESCE(trakt_movies_history_json->'movie'->>'certification', 'NR') AS certification
     , trakt_movies_history_json->>'type' AS media_type
 	, (trakt_movies_history_json->'movie'->'ids'->>'trakt')::varchar AS trakt_id
 	, (trakt_movies_history_json->'movie'->'ids'->>'imdb')::varchar AS imdb_id
