@@ -15,7 +15,7 @@ INSERT INTO ods.trakt_movies_history (
 	, poster
 	, updated_at
 )
-SELECT 
+SELECT DISTINCT ON ((trakt_movies_history_json->>'id')::varchar) 
 	(trakt_movies_history_json->>'id')::varchar AS watch_id
 	, trakt_movies_history_json->'movie'->>'title' AS title
 	, (trakt_movies_history_json->'movie'->>'released')::date AS release_date
@@ -75,7 +75,7 @@ INSERT INTO ods.trakt_episodes_history (
 	, show_updated_at
 	, certification
 )
-SELECT 
+SELECT DISTINCT ON ((trakt_episodes_history_json->>'id')::varchar) 
 	(trakt_episodes_history_json->>'id')::varchar AS watch_id
 	, trakt_episodes_history_json->'episode'->>'title' AS episode_title
 	, trakt_episodes_history_json->'show'->>'title' AS show_title
