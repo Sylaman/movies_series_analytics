@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS ods.trakt_movies_history (
     watch_id VARCHAR(64) PRIMARY KEY
     , title VARCHAR(255) NOT NULL
     , release_date date NOT NULL
-    , watched_at timestamp NOT NULL CHECK (watched_at > release_date)
+    , watched_at timestamp NOT NULL CHECK (watched_at >= release_date)
     , runtime integer NOT NULL CHECK (runtime >= 0)
     , country VARCHAR(16) NOT NULL 
     , genres TEXT[]
@@ -45,6 +45,7 @@ CREATE TABLE IF NOT EXISTS ods.trakt_episodes_history (
 	, trakt_episode_id VARCHAR(64) NOT NULL
 	, imdb_episode_id VARCHAR(64) NOT NULL
     , tmdb_episode_id VARCHAR(64) NOT NULL
+    , season_id VARCHAR(64) NOT NULL
     , trakt_show_id VARCHAR(64) NOT NULL
 	, imdb_show_id VARCHAR(64) NOT NULL
     , tmdb_show_id VARCHAR(64) NOT NULL
@@ -54,4 +55,13 @@ CREATE TABLE IF NOT EXISTS ods.trakt_episodes_history (
 	, show_updated_at timestamp
 	, certification VARCHAR(64)
 	, loaded_at timestamp DEFAULT CURRENT_TIMESTAMP
+);
+
+
+CREATE TABLE IF NOT EXISTS ods.trakt_episodes_ratings (
+    trakt_episode_id VARCHAR(64) NOT NULL
+    , trakt_show_id VARCHAR(64) NOT NULL
+    , rating numeric(3,1) NOT NULL CHECK (rating BETWEEN 0 AND 10)
+    , rated_date date NOT NULL
+    , loaded_at timestamp DEFAULT CURRENT_TIMESTAMP
 );

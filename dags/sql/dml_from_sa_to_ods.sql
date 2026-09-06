@@ -65,6 +65,7 @@ INSERT INTO ods.trakt_episodes_history (
 	, trakt_episode_id
 	, imdb_episode_id
 	, tmdb_episode_id
+	, season_id
 	, trakt_show_id
 	, imdb_show_id
 	, tmdb_show_id
@@ -78,7 +79,7 @@ SELECT
 	(trakt_episodes_history_json->>'id')::varchar AS watch_id
 	, trakt_episodes_history_json->'episode'->>'title' AS episode_title
 	, trakt_episodes_history_json->'show'->>'title' AS show_title
-	, (trakt_episodes_history_json->'episode'->>'released')::date AS release_date
+	, COALESCE((trakt_episodes_history_json->'episode'->>'released')::date, (trakt_episodes_history_json->'show'->>'first_aired')::date) AS release_date
 	, (trakt_episodes_history_json->>'watched_at')::timestamp AS watched_at
 	, trakt_episodes_history_json->>'type' AS media_type
 	, (trakt_episodes_history_json->'episode'->>'season')::int AS season_number
@@ -91,6 +92,7 @@ SELECT
 	, (trakt_episodes_history_json->'episode'->'ids'->>'trakt')::varchar AS trakt_episode_id
 	, (trakt_episodes_history_json->'episode'->'ids'->>'imdb')::varchar AS imdb_episode_id
     , (trakt_episodes_history_json->'episode'->'ids'->>'tmdb')::varchar AS tmdb_episode_id
+	, (trakt_episodes_history_json->'show'->'ids'->>'trakt') || '_s' || (trakt_episodes_history_json->'episode'->>'season') AS season_id
     , (trakt_episodes_history_json->'show'->'ids'->>'trakt')::varchar AS trakt_show_id
 	, (trakt_episodes_history_json->'show'->'ids'->>'imdb')::varchar AS imdb_show_id
     , (trakt_episodes_history_json->'show'->'ids'->>'tmdb')::varchar AS tmdb_show_id
@@ -100,3 +102,17 @@ SELECT
 	, (trakt_episodes_history_json->'show'->>'updated_at')::timestamp AS show_updated_at
 	, trakt_episodes_history_json->'show'->>'certification' AS certification
 FROM sa.raw_trakt_episodes_history;
+
+
+INSERT INTO ods.trakt_episodes_ratings (
+	trakt_episode_id
+	, trakt_show_id
+	, rating
+	, rated_date
+)
+SELECT 
+	(trakt_episodes_ratings_json->'episode'->'ids'->>'trakt')::varchar AS trakt_id
+	, (trakt_episodes_ratings_json->'show'->'ids'->>'trakt')::varchar AS trakt_id
+	, (trakt_episodes_ratings_json->>'rating')::numeric(3,1) AS rating
+	, (trakt_episodes_ratings_json->>'rated_at')::date AS rated_date
+FROM sa.raw_trakt_episodes_ratings;
