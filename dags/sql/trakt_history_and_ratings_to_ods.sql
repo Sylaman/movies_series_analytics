@@ -90,8 +90,8 @@ SELECT DISTINCT ON ((trakt_episodes_history_json->>'id')::varchar)
     , ARRAY(SELECT jsonb_array_elements_text(trakt_episodes_history_json->'show'->'genres')) AS genres
 	, ARRAY(SELECT jsonb_array_elements_text(trakt_episodes_history_json->'show'->'subgenres')) AS subgenres
 	, (trakt_episodes_history_json->'episode'->'ids'->>'trakt')::varchar AS trakt_episode_id
-	, (trakt_episodes_history_json->'episode'->'ids'->>'imdb')::varchar AS imdb_episode_id
-    , (trakt_episodes_history_json->'episode'->'ids'->>'tmdb')::varchar AS tmdb_episode_id
+	, COALESCE((trakt_episodes_history_json->'episode'->'ids'->>'imdb')::varchar, 'N/A') AS imdb_episode_id
+    , COALESCE((trakt_episodes_history_json->'episode'->'ids'->>'tmdb')::varchar, 'N/A') AS tmdb_episode_id
 	, (trakt_episodes_history_json->'show'->'ids'->>'trakt') || '_s' || (trakt_episodes_history_json->'episode'->>'season') AS season_id
     , (trakt_episodes_history_json->'show'->'ids'->>'trakt')::varchar AS trakt_show_id
 	, (trakt_episodes_history_json->'show'->'ids'->>'imdb')::varchar AS imdb_show_id
@@ -111,8 +111,8 @@ INSERT INTO ods.trakt_episodes_ratings (
 	, rated_date
 )
 SELECT 
-	(trakt_episodes_ratings_json->'episode'->'ids'->>'trakt')::varchar AS trakt_id
-	, (trakt_episodes_ratings_json->'show'->'ids'->>'trakt')::varchar AS trakt_id
+	(trakt_episodes_ratings_json->'episode'->'ids'->>'trakt')::varchar AS trakt_episode_id
+	, (trakt_episodes_ratings_json->'show'->'ids'->>'trakt')::varchar AS trakt_show_id
 	, (trakt_episodes_ratings_json->>'rating')::numeric(3,1) AS rating
 	, (trakt_episodes_ratings_json->>'rated_at')::date AS rated_date
 FROM sa.raw_trakt_episodes_ratings;
