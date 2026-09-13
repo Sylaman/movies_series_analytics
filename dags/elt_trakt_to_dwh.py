@@ -141,7 +141,7 @@ with DAG(
     truncate_sa_tables = SQLExecuteQueryOperator (
         task_id = 'truncate_sa_tables',
         conn_id = 'postgres_dwh',
-        sql = 'TRUNCATE sa.raw_trakt_movies_history, sa.raw_trakt_movies_ratings, sa.raw_trakt_episodes_history, sa.raw_trakt_episodes_ratings'
+        sql = 'TRUNCATE sa.raw_trakt_movies_history, sa.raw_trakt_movies_ratings, sa.raw_trakt_episodes_history, sa.raw_trakt_episodes_ratings, sa.raw_trakt_movies_people, sa.raw_trakt_seasons_people'
     )
 
     load_movies_history = PythonOperator(
@@ -187,7 +187,7 @@ with DAG(
     truncate_ods_tables = SQLExecuteQueryOperator (
         task_id = 'truncate_ods_tables',
         conn_id = 'postgres_dwh',
-        sql = 'TRUNCATE ods.trakt_movies_history, ods.trakt_movies_ratings, ods.trakt_episodes_history'
+        sql = 'TRUNCATE ods.trakt_movies_history, ods.trakt_movies_ratings, ods.trakt_episodes_history, ods.trakt_episodes_ratings, ods.trakt_movies_people'
     )
 
     load_trakt_history_and_ratings_to_ods = SQLExecuteQueryOperator (
