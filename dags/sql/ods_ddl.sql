@@ -65,3 +65,16 @@ CREATE TABLE IF NOT EXISTS ods.trakt_episodes_ratings (
     , rated_date date NOT NULL
     , loaded_at timestamp DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE IF NOT EXISTS ods.trakt_movies_people (
+    id SERIAL PRIMARY KEY
+    , movie_trakt_id VARCHAR(64) NOT NULL
+    , person_trakt_id VARCHAR(64) NOT NULL
+    , person_name VARCHAR(255) NOT NULL
+    , role VARCHAR(64) NOT NULL
+    , gender VARCHAR(32)
+    , birthday DATE
+    , birthplace TEXT
+    , person_updated_at TIMESTAMP
+    , loaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
