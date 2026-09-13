@@ -190,10 +190,10 @@ with DAG(
         sql = 'TRUNCATE ods.trakt_movies_history, ods.trakt_movies_ratings, ods.trakt_episodes_history'
     )
 
-    load_trakt_data_from_sa_to_ods = SQLExecuteQueryOperator (
-        task_id = 'load_trakt_data_from_sa_to_ods',
+    load_trakt_history_and_ratings_to_ods = SQLExecuteQueryOperator (
+        task_id = 'load_trakt_history_and_ratings_to_ods',
         conn_id = 'postgres_dwh',
-        sql = 'sql/dml_from_sa_to_ods.sql'
+        sql = 'sql/trakt_history_and_ratings_to_ods.sql'
     )
 
     load_movies_people_sa = PythonOperator(
@@ -208,6 +208,13 @@ with DAG(
         op_kwargs={'target_type': 'seasons'},
     )
 
-    chain_sequence = truncate_sa_tables >> [load_movies_history, load_movies_ratings, load_episodes_history, load_episodes_ratings] >> truncate_ods_tables >> load_trakt_data_from_sa_to_ods
+    load_trakt_people_to_ods = SQLExecuteQueryOperator (
+        task_id = 'load_trakt_people_to_ods',
+        conn_id = 'postgres_dwh',
+        sql = 'sql/trakt_people_to_ods.sql'
+    )
+
+    chain_sequence = truncate_sa_tables >> [load_movies_history, load_movies_ratings, load_episodes_history, load_episodes_ratings] >> truncate_ods_tables >> load_trakt_history_and_ratings_to_ods
     chain_sequence >> load_movies_people_sa
     chain_sequence >> load_seasons_people_sa
+    [load_movies_people_sa, load_seasons_people_sa] >> load_trakt_people_to_ods
