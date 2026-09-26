@@ -81,3 +81,99 @@ LATERAL (
     FROM jsonb_array_elements(COALESCE(s.movie_people_json->'crew'->'sound', '[]'::jsonb))
     WHERE value->>'job' = 'Original Music Composer'
 ) comp;
+
+
+
+INSERT INTO ods.trakt_seasons_people (
+    season_id,
+    show_trakt_id,
+    season_number,
+    person_trakt_id,
+    person_name,
+    role,
+    gender,
+    birthday,
+    birthplace,
+    person_updated_at
+)
+-- 1. Топ-7 главных актеров сезона (вместо 5)
+SELECT 
+    s.season_id,
+    s.show_trakt_id,
+    s.season_number,
+    (actor_elem->'person'->'ids'->>'trakt')::varchar AS person_trakt_id,
+    (actor_elem->'person'->>'name')::varchar AS person_name,
+    'actor'::varchar AS role,
+    (actor_elem->'person'->>'gender')::varchar AS gender,
+    NULLIF(actor_elem->'person'->>'birthday', '')::date AS birthday,
+    (actor_elem->'person'->>'birthplace')::text AS birthplace,
+    (actor_elem->'person'->>'updated_at')::timestamp AS person_updated_at
+FROM sa.raw_trakt_seasons_people s,
+LATERAL (
+    SELECT value AS actor_elem
+    FROM jsonb_array_elements(COALESCE(s.season_people_json->'cast', '[]'::jsonb)) WITH ORDINALITY AS arr(value, idx)
+    WHERE idx <= 7
+) c
+
+UNION ALL
+
+-- 2. Режиссеры сезона (все с job = 'Director')
+SELECT 
+    s.season_id,
+    s.show_trakt_id,
+    s.season_number,
+    (crew_elem->'person'->'ids'->>'trakt')::varchar AS person_trakt_id,
+    (crew_elem->'person'->>'name')::varchar AS person_name,
+    'director'::varchar AS role,
+    (crew_elem->'person'->>'gender')::varchar AS gender,
+    NULLIF(crew_elem->'person'->>'birthday', '')::date AS birthday,
+    (crew_elem->'person'->>'birthplace')::text AS birthplace,
+    (crew_elem->'person'->>'updated_at')::timestamp AS person_updated_at
+FROM sa.raw_trakt_seasons_people s,
+LATERAL (
+    SELECT value AS crew_elem
+    FROM jsonb_array_elements(COALESCE(s.season_people_json->'crew'->'directing', '[]'::jsonb))
+    WHERE value->>'job' = 'Director'
+) d
+
+UNION ALL
+
+-- 3. Сценаристы сезона (все с job = 'Writer')
+SELECT 
+    s.season_id,
+    s.show_trakt_id,
+    s.season_number,
+    (crew_elem->'person'->'ids'->>'trakt')::varchar AS person_trakt_id,
+    (crew_elem->'person'->>'name')::varchar AS person_name,
+    'writer'::varchar AS role,
+    (crew_elem->'person'->>'gender')::varchar AS gender,
+    NULLIF(crew_elem->'person'->>'birthday', '')::date AS birthday,
+    (crew_elem->'person'->>'birthplace')::text AS birthplace,
+    (crew_elem->'person'->>'updated_at')::timestamp AS person_updated_at
+FROM sa.raw_trakt_seasons_people s,
+LATERAL (
+    SELECT value AS crew_elem
+    FROM jsonb_array_elements(COALESCE(s.season_people_json->'crew'->'writing', '[]'::jsonb))
+    WHERE value->>'job' = 'Writer'
+) w
+
+UNION ALL
+
+-- 4. Композиторы сезона (все с job = 'Original Music Composer')
+SELECT 
+    s.season_id,
+    s.show_trakt_id,
+    s.season_number,
+    (crew_elem->'person'->'ids'->>'trakt')::varchar AS person_trakt_id,
+    (crew_elem->'person'->>'name')::varchar AS person_name,
+    'composer'::varchar AS role,
+    (crew_elem->'person'->>'gender')::varchar AS gender,
+    NULLIF(crew_elem->'person'->>'birthday', '')::date AS birthday,
+    (crew_elem->'person'->>'birthplace')::text AS birthplace,
+    (crew_elem->'person'->>'updated_at')::timestamp AS person_updated_at
+FROM sa.raw_trakt_seasons_people s,
+LATERAL (
+    SELECT value AS crew_elem
+    FROM jsonb_array_elements(COALESCE(s.season_people_json->'crew'->'sound', '[]'::jsonb))
+    WHERE value->>'job' = 'Original Music Composer'
+) comp;
