@@ -42,3 +42,26 @@ CREATE TABLE IF NOT EXISTS sa.raw_trakt_seasons_people (
     season_people_json JSONB NOT NULL,
     loaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE sa.raw_tmdb_movies_details (
+    tmdb_id VARCHAR(64) NOT NULL,
+    trakt_id VARCHAR(64) NOT NULL,
+    tmdb_movies_details_json JSONB NOT NULL,
+    loaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT raw_tmdb_movies_details_pkey PRIMARY KEY (tmdb_id)
+);
+CREATE INDEX idx_raw_tmdb_movies_trakt_id ON sa.raw_tmdb_movies_details (trakt_id);
+
+
+
+CREATE TABLE sa.raw_tmdb_seasons_details (
+    season_id VARCHAR(64) NOT NULL,
+    show_trakt_id VARCHAR(64) NOT NULL,
+    tmdb_show_id VARCHAR(64) NOT NULL,
+    season_number INT4 NOT NULL,
+    tmdb_seasons_details_json JSONB NOT NULL,
+    loaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT raw_tmdb_seasons_details_pkey PRIMARY KEY (season_id)
+);
+CREATE INDEX idx_raw_tmdb_seasons_show_trakt_id ON sa.raw_tmdb_seasons_details (show_trakt_id);
+CREATE INDEX idx_raw_tmdb_seasons_tmdb_show_id ON sa.raw_tmdb_seasons_details (tmdb_show_id);

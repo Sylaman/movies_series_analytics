@@ -129,21 +129,21 @@ def fetch_and_save_people_to_sa(target_type: str):
 
 
 def fetch_and_save_tmdb_movies_to_sa():
-    # Получаем ключ TMDB из переменных Airflow (предварительно добавьте его в UI)
     TMDB_API_KEY = Variable.get('tmdb_api_token')
     
     pg_hook = PostgresHook(postgres_conn_id='postgres_dwh')
     conn = pg_hook.get_conn()
     cursor = conn.cursor()
 
-    cursor.execute('SELECT DISTINCT tmdb_id FROM ods.trakt_movies_history WHERE tmdb_id IS NOT NULL;')
+    # Забираем и trakt_id, и tmdb_id из ODS
+    cursor.execute('SELECT DISTINCT trakt_id, tmdb_id FROM ods.trakt_movies_history WHERE tmdb_id IS NOT NULL AND trakt_id IS NOT NULL;')
     records = cursor.fetchall()
     print(f'Найдено уникальных фильмов в ODS для выгрузки из TMDB: {len(records)}')
 
     success_count = 0
     error_count = 0
 
-    for (tmdb_id,) in records:
+    for (trakt_id, tmdb_id) in records:
         url = f'https://api.themoviedb.org/3/movie/{tmdb_id}?api_key={TMDB_API_KEY}&language=en-US'
         
         response = requests.get(url)
@@ -151,17 +151,18 @@ def fetch_and_save_tmdb_movies_to_sa():
         if response.status_code == 200:
             movie_data = response.json()
             cursor.execute("""
-                INSERT INTO sa.raw_tmdb_movies_details (tmdb_id, tmdb_movies_details_json, loaded_at)
-                VALUES (%s, %s, CURRENT_TIMESTAMP)
+                INSERT INTO sa.raw_tmdb_movies_details (tmdb_id, trakt_id, tmdb_movies_details_json, loaded_at)
+                VALUES (%s, %s, %s, CURRENT_TIMESTAMP)
                 ON CONFLICT (tmdb_id) DO UPDATE 
-                SET tmdb_movies_details_json = EXCLUDED.tmdb_movies_details_json, 
+                SET trakt_id = EXCLUDED.trakt_id,
+                    tmdb_movies_details_json = EXCLUDED.tmdb_movies_details_json, 
                     loaded_at = CURRENT_TIMESTAMP;
-            """, (str(tmdb_id), json.dumps(movie_data)))
+            """, (str(tmdb_id), str(trakt_id), json.dumps(movie_data)))
             conn.commit()
             success_count += 1
         else:
             error_count += 1
-            print(f'Ошибка получения деталей TMDB для фильма с ID {tmdb_id}: {response.status_code} - {response.text}')
+            print(f'Ошибка получения деталей TMDB для фильма (Trakt ID: {trakt_id}, TMDB ID: {tmdb_id}): {response.status_code} - {response.text}')
 
     cursor.close()
     conn.close()
@@ -175,11 +176,13 @@ def fetch_and_save_tmdb_seasons_to_sa():
     conn = pg_hook.get_conn()
     cursor = conn.cursor()
 
-    # Берем уникальные связки шоу и сезонов из истории эпизодов в ODS
+    # Забираем уникальные связки show_trakt_id, tmdb_show_id и номера сезона из ODS
     cursor.execute("""
-        SELECT DISTINCT tmdb_show_id, season_number 
+        SELECT DISTINCT trakt_show_id, tmdb_show_id, season_number 
         FROM ods.trakt_episodes_history 
-        WHERE tmdb_show_id IS NOT NULL AND season_number IS NOT NULL;
+        WHERE trakt_show_id IS NOT NULL 
+          AND tmdb_show_id IS NOT NULL 
+          AND season_number IS NOT NULL;
     """)
     records = cursor.fetchall()
     print(f'Найдено уникальных сезонов сериалов в ODS для выгрузки из TMDB: {len(records)}')
@@ -187,27 +190,44 @@ def fetch_and_save_tmdb_seasons_to_sa():
     success_count = 0
     error_count = 0
 
-    for (tmdb_show_id, season_number) in records:
+    for (show_trakt_id, tmdb_show_id, season_number) in records:
         url = f'https://api.themoviedb.org/3/tv/{tmdb_show_id}/season/{season_number}?api_key={TMDB_API_KEY}&language=en-US'
         
         response = requests.get(url)
         
         if response.status_code == 200:
             season_data = response.json()
-            season_id = f'{tmdb_show_id}_s{season_number}' # Или привязка через trakt_show_id, если удобнее
+            # Формируем уникальный season_id (например, через trakt_show_id или tmdb_show_id)
+            season_id = f'{show_trakt_id}_s{season_number}'
             
             cursor.execute("""
-                INSERT INTO sa.raw_tmdb_seasons_details (season_id, show_trakt_id, season_number, tmdb_seasons_details_json, loaded_at)
-                VALUES (%s, %s, %s, %s, CURRENT_TIMESTAMP)
+                INSERT INTO sa.raw_tmdb_seasons_details (
+                    season_id, 
+                    show_trakt_id, 
+                    tmdb_show_id, 
+                    season_number, 
+                    tmdb_seasons_details_json, 
+                    loaded_at
+                )
+                VALUES (%s, %s, %s, %s, %s, CURRENT_TIMESTAMP)
                 ON CONFLICT (season_id) DO UPDATE 
-                SET tmdb_seasons_details_json = EXCLUDED.tmdb_seasons_details_json, 
+                SET show_trakt_id = EXCLUDED.show_trakt_id,
+                    tmdb_show_id = EXCLUDED.tmdb_show_id,
+                    season_number = EXCLUDED.season_number,
+                    tmdb_seasons_details_json = EXCLUDED.tmdb_seasons_details_json, 
                     loaded_at = CURRENT_TIMESTAMP;
-            """, (str(season_id), str(tmdb_show_id), int(season_number), json.dumps(season_data)))
+            """, (
+                str(season_id), 
+                str(show_trakt_id), 
+                str(tmdb_show_id), 
+                int(season_number), 
+                json.dumps(season_data)
+            ))
             conn.commit()
             success_count += 1
         else:
             error_count += 1
-            print(f'Ошибка TMDB для шоу {tmdb_show_id}, сезон {season_number}: {response.status_code} - {response.text}')
+            print(f'Ошибка TMDB для сериала (Trakt ID: {show_trakt_id}, TMDB ID: {tmdb_show_id}), сезон {season_number}: {response.status_code} - {response.text}')
 
     cursor.close()
     conn.close()
