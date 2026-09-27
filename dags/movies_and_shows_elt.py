@@ -291,11 +291,11 @@ def fetch_and_save_tmdb_shows_to_sa():
 
 
 with DAG(
-    dag_id = 'elt_trakt_to_dwh',
+    dag_id = 'movies_and_shows_elt',
     start_date = datetime(2026, 8, 29),
     schedule = None,
     catchup = False,
-    tags = ['elt', 'trakt', 'movies', 'shows'],
+    tags = ['trakt', 'tmdb', 'movies', 'shows'],
 ) as dag:
 
     truncate_sa_tables = SQLExecuteQueryOperator (
