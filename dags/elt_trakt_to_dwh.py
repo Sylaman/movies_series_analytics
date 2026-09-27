@@ -1,4 +1,5 @@
 from datetime import datetime
+import requests
 import json
 
 from airflow import DAG
@@ -6,9 +7,6 @@ from airflow.models import Variable
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.providers.standard.operators.python import PythonOperator
 from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
-
-import requests
-import tmdbsimple as tmdb
 
 
 def fetch_and_load_data_from_trakt(endpoint, target_table, target_field):
@@ -130,6 +128,92 @@ def fetch_and_save_people_to_sa(target_type: str):
     print(f"Загрузка people для типа '{target_type}' успешно завершена.")
 
 
+def fetch_and_save_tmdb_movies_to_sa():
+    # Получаем ключ TMDB из переменных Airflow (предварительно добавьте его в UI)
+    TMDB_API_KEY = Variable.get('tmdb_api_token')
+    
+    pg_hook = PostgresHook(postgres_conn_id='postgres_dwh')
+    conn = pg_hook.get_conn()
+    cursor = conn.cursor()
+
+    cursor.execute('SELECT DISTINCT tmdb_id FROM ods.trakt_movies_history WHERE tmdb_id IS NOT NULL;')
+    records = cursor.fetchall()
+    print(f'Найдено уникальных фильмов в ODS для выгрузки из TMDB: {len(records)}')
+
+    success_count = 0
+    error_count = 0
+
+    for (tmdb_id,) in records:
+        url = f'https://api.themoviedb.org/3/movie/{tmdb_id}?api_key={TMDB_API_KEY}&language=en-US'
+        
+        response = requests.get(url)
+        
+        if response.status_code == 200:
+            movie_data = response.json()
+            cursor.execute("""
+                INSERT INTO sa.raw_tmdb_movies_details (tmdb_id, tmdb_movies_details_json, loaded_at)
+                VALUES (%s, %s, CURRENT_TIMESTAMP)
+                ON CONFLICT (tmdb_id) DO UPDATE 
+                SET tmdb_movies_details_json = EXCLUDED.tmdb_movies_details_json, 
+                    loaded_at = CURRENT_TIMESTAMP;
+            """, (str(tmdb_id), json.dumps(movie_data)))
+            conn.commit()
+            success_count += 1
+        else:
+            error_count += 1
+            print(f'Ошибка получения деталей TMDB для фильма с ID {tmdb_id}: {response.status_code} - {response.text}')
+
+    cursor.close()
+    conn.close()
+    print(f'Загрузка деталей фильмов из TMDB завершена. Успешно: {success_count}, Ошибок: {error_count}')
+
+
+def fetch_and_save_tmdb_seasons_to_sa():
+    TMDB_API_KEY = Variable.get('tmdb_api_token')
+    
+    pg_hook = PostgresHook(postgres_conn_id='postgres_dwh')
+    conn = pg_hook.get_conn()
+    cursor = conn.cursor()
+
+    # Берем уникальные связки шоу и сезонов из истории эпизодов в ODS
+    cursor.execute("""
+        SELECT DISTINCT tmdb_show_id, season_number 
+        FROM ods.trakt_episodes_history 
+        WHERE tmdb_show_id IS NOT NULL AND season_number IS NOT NULL;
+    """)
+    records = cursor.fetchall()
+    print(f'Найдено уникальных сезонов сериалов в ODS для выгрузки из TMDB: {len(records)}')
+
+    success_count = 0
+    error_count = 0
+
+    for (tmdb_show_id, season_number) in records:
+        url = f'https://api.themoviedb.org/3/tv/{tmdb_show_id}/season/{season_number}?api_key={TMDB_API_KEY}&language=en-US'
+        
+        response = requests.get(url)
+        
+        if response.status_code == 200:
+            season_data = response.json()
+            season_id = f'{tmdb_show_id}_s{season_number}' # Или привязка через trakt_show_id, если удобнее
+            
+            cursor.execute("""
+                INSERT INTO sa.raw_tmdb_seasons_details (season_id, show_trakt_id, season_number, tmdb_seasons_details_json, loaded_at)
+                VALUES (%s, %s, %s, %s, CURRENT_TIMESTAMP)
+                ON CONFLICT (season_id) DO UPDATE 
+                SET tmdb_seasons_details_json = EXCLUDED.tmdb_seasons_details_json, 
+                    loaded_at = CURRENT_TIMESTAMP;
+            """, (str(season_id), str(tmdb_show_id), int(season_number), json.dumps(season_data)))
+            conn.commit()
+            success_count += 1
+        else:
+            error_count += 1
+            print(f'Ошибка TMDB для шоу {tmdb_show_id}, сезон {season_number}: {response.status_code} - {response.text}')
+
+    cursor.close()
+    conn.close()
+    print(f'Загрузка деталей сезонов из TMDB завершена. Успешно: {success_count}, Ошибок: {error_count}')
+
+
 with DAG(
     dag_id = 'elt_trakt_to_dwh',
     start_date = datetime(2026, 8, 29),
@@ -208,6 +292,16 @@ with DAG(
         op_kwargs={'target_type': 'seasons'},
     )
 
+    load_tmdb_movies_details_to_sa = PythonOperator(
+        task_id='load_tmdb_movies_details_to_sa',
+        python_callable=fetch_and_save_tmdb_movies_to_sa,
+    )
+
+    load_tmdb_seasons_detail_to_sa = PythonOperator(
+        task_id='load_tmdb_seasons_detail_to_sa',
+        python_callable=fetch_and_save_tmdb_seasons_to_sa,
+    )
+
     load_trakt_people_to_ods = SQLExecuteQueryOperator (
         task_id = 'load_trakt_people_to_ods',
         conn_id = 'postgres_dwh',
@@ -217,4 +311,6 @@ with DAG(
     chain_sequence = truncate_sa_tables >> [load_movies_history, load_movies_ratings, load_episodes_history, load_episodes_ratings] >> truncate_ods_tables >> load_trakt_history_and_ratings_to_ods
     chain_sequence >> load_movies_people_sa
     chain_sequence >> load_seasons_people_sa
-    [load_movies_people_sa, load_seasons_people_sa] >> load_trakt_people_to_ods
+    chain_sequence >> load_tmdb_movies_details_to_sa
+    chain_sequence >> load_tmdb_seasons_detail_to_sa
+    [load_movies_people_sa, load_seasons_people_sa, load_tmdb_movies_details_to_sa, load_tmdb_seasons_detail_to_sa] >> load_trakt_people_to_ods
