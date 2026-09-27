@@ -104,3 +104,28 @@ CREATE TABLE ods.trakt_seasons_people (
 	loaded_at timestamp DEFAULT CURRENT_TIMESTAMP NULL,
 	CONSTRAINT trakt_seasons_people_pkey PRIMARY KEY (id)
 );
+
+
+CREATE TABLE IF NOT EXISTS ods.tmdb_movies_detail (
+    tmdb_id VARCHAR(64) NOT NULL,
+    trakt_id VARCHAR(64) NOT NULL,
+    budget BIGINT,
+    revenue BIGINT,
+    production_companies JSONB,
+    loaded_at TIMESTAMP,
+    ods_loaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT tmdb_movies_detail_pkey PRIMARY KEY (tmdb_id)
+);
+CREATE INDEX IF NOT EXISTS idx_ods_tmdb_movies_trakt_id ON ods.tmdb_movies_detail (trakt_id);
+
+
+CREATE TABLE IF NOT EXISTS ods.tmdb_show_details (
+    tmdb_show_id VARCHAR(64) NOT NULL,
+    trakt_show_id VARCHAR(64) NOT NULL,
+    created_by JSONB,
+    production_companies JSONB,
+    loaded_at TIMESTAMP,
+    ods_loaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT tmdb_show_details_pkey PRIMARY KEY (tmdb_show_id)
+);
+CREATE INDEX IF NOT EXISTS idx_ods_tmdb_shows_trakt_id ON ods.tmdb_show_details (trakt_show_id);
